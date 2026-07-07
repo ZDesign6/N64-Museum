@@ -283,10 +283,10 @@
           }
         ],
         "enabled": true,
-        "name": "Box",
+        "name": "bitch box",
         "pos": [
-          0.0,
-          0.0,
+          6.087589263916016,
+          136.26449584960938,
           0.0
         ],
         "propOverrides": {},
@@ -304,6 +304,73 @@
         ],
         "selectable": true,
         "uuid": 1407552857,
+        "uuidPrefab": 0
+      },
+      {
+        "children": [],
+        "components": [
+          {
+            "data": {
+              "culling": false,
+              "layerIdx": 0,
+              "material": {
+                "depth": 0,
+                "env": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "fresnel": 0,
+                "fresnelColor": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "lighting": false,
+                "prim": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "setDepth": false,
+                "setEnv": false,
+                "setFresnel": false,
+                "setLighting": false,
+                "setPrim": false
+              },
+              "meshFilter": "",
+              "model": 17660758381478844321
+            },
+            "id": 1,
+            "name": "Model (Static)",
+            "uuid": 1194680501142561258
+          }
+        ],
+        "enabled": true,
+        "name": "Box",
+        "pos": [
+          6.087589263916016,
+          0.0,
+          0.0
+        ],
+        "propOverrides": {},
+        "proportionalScale": false,
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selectable": true,
+        "uuid": 1006344143,
         "uuidPrefab": 0
       }
     ],
