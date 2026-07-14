@@ -11,8 +11,8 @@ namespace
   constexpr float COYOTE_TIME = 0.15f;  // Grace window after leaving the floor
   float MOVE_SPEED  = 0.009f;
 
-  constexpr float CAM_DIST   = 390.0f;
-  constexpr float CAM_HEIGHT = 400.0f;
+  constexpr float CAM_DIST   = 0.5f;
+  constexpr float CAM_HEIGHT = 0.0f;
   constexpr float CAM_YAW_SNAP = 45.0_deg;
   constexpr float CAM_PITCH_SPEED = 2.0f;  // Pitch target change speed (radians/sec)
   constexpr float CAM_INTERP_SPEED = 0.15f;  // Rotation interpolation factor per frame (0-1)
@@ -67,7 +67,7 @@ namespace P64::Script::CD0A328E7EE01313
   void update(Object& obj, Data *data, float deltaTime) {
     auto inp     = joypad_get_inputs(JOYPAD_PORT_1);
     auto pressed = joypad_get_buttons_pressed(JOYPAD_PORT_1);
-
+    //store derefed body
     auto &body = obj.getComponent<P64::Comp::CharBody>()->getBody();
 
     if(pressed.r) {
@@ -89,12 +89,15 @@ namespace P64::Script::CD0A328E7EE01313
     const fm_vec3_t up = body.getSettings().up;
     fm_vec3_t forward0 = data->camForward - up * fm_vec3_dot(&data->camForward, &up);
     float fwdLen2 = fm_vec3_len2(&forward0);
-    if(fwdLen2 < 1e-4f) {
+    if(fwdLen2 < 1e-4f) 
+    {
       fm_vec3_t seed = {0.0f, 0.0f, 1.0f};
       if(fabsf(fm_vec3_dot(&up, &seed)) > 0.99f) seed = {1.0f, 0.0f, 0.0f};
       forward0 = seed - up * fm_vec3_dot(&up, &seed);
       fm_vec3_norm(&forward0, &forward0);
-    } else {
+    } 
+    else 
+    {
       forward0 = forward0 * (1.0f / sqrtf(fwdLen2));
     }
     data->camForward = forward0;
@@ -162,9 +165,12 @@ namespace P64::Script::CD0A328E7EE01313
     body.moveAndSlide(deltaTime);
     ticks = get_ticks() - ticks;
 
-    if(body.isOnSteepSurface()) {
+    if(body.isOnSteepSurface()) 
+    {
       data->moveSpeedFactor *= 0.7f;
-    } else {
+    } 
+    else 
+    {
       data->moveSpeedFactor = fminf(1.0f, data->moveSpeedFactor + 2.0f * deltaTime);
     }
 

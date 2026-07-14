@@ -8,7 +8,7 @@
   "collLayer6": "Layer 6",
   "collLayer7": "Layer 7",
   "name": "N64Museum",
-  "pathEmu": "ares",
+  "pathEmu": "C:\\Users\\Shade\\Downloads\\Emulation\\ares-v148\\ares.exe",
   "pathN64Inst": "",
   "romName": "N64Museum",
   "sceneIdLastOpened": 1,

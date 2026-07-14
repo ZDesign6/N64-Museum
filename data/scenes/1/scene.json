@@ -112,7 +112,7 @@
               "far": 5000.0,
               "fov": 65.0,
               "mode": 0,
-              "near": 100.0,
+              "near": 50.0,
               "vpOffset": [
                 0,
                 0
@@ -280,13 +280,36 @@
             "id": 1,
             "name": "Model (Static)",
             "uuid": 1194680501142561258
+          },
+          {
+            "data": {
+              "bounce": 0.0,
+              "friction": 0.800000011920929,
+              "halfExtend": [
+                64.0,
+                60.0,
+                64.0
+              ],
+              "isTrigger": false,
+              "maskRead": 0,
+              "maskWrite": 1,
+              "offset": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": 0
+            },
+            "id": 5,
+            "name": "Collider",
+            "uuid": 5984277931412282183
           }
         ],
         "enabled": true,
-        "name": "bitch box",
+        "name": "Floor Box",
         "pos": [
-          6.087589263916016,
-          136.26449584960938,
+          -5.08807373046875,
+          -106.27753448486328,
           0.0
         ],
         "propOverrides": {},
@@ -298,9 +321,9 @@
           1.0
         ],
         "scale": [
-          1.0,
-          1.0,
-          1.0
+          6.024033546447754,
+          0.13577988743782043,
+          4.778637409210205
         ],
         "selectable": true,
         "uuid": 1407552857,
@@ -347,13 +370,50 @@
             "id": 1,
             "name": "Model (Static)",
             "uuid": 1194680501142561258
+          },
+          {
+            "data": {
+              "args": {},
+              "script": 14774677115137692435
+            },
+            "id": 0,
+            "name": "Code",
+            "uuid": 14731729757641504702
+          },
+          {
+            "data": {
+              "centerOffset": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "collTypes": 255,
+              "floorMaxAngle": 0.785398006439209,
+              "floorSnapDistance": 0.30000001192092896,
+              "followFloor": true,
+              "gravity": 30.0,
+              "height": 1.2999999523162842,
+              "maxFallSpeed": 55.0,
+              "maxSlides": 4,
+              "radius": 0.699999988079071,
+              "readMask": 1,
+              "stepHeight": 0.25,
+              "up": [
+                0.0,
+                1.0,
+                0.0
+              ]
+            },
+            "id": 12,
+            "name": "Character-Body",
+            "uuid": 8216777363982963772
           }
         ],
         "enabled": true,
         "name": "Box",
         "pos": [
           6.087589263916016,
-          0.0,
+          100.87845611572266,
           0.0
         ],
         "propOverrides": {},
@@ -371,6 +431,115 @@
         ],
         "selectable": true,
         "uuid": 1006344143,
+        "uuidPrefab": 0
+      },
+      {
+        "children": [],
+        "components": [
+          {
+            "data": {
+              "culling": false,
+              "layerIdx": 0,
+              "material": {
+                "depth": 0,
+                "env": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "fresnel": 0,
+                "fresnelColor": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "lighting": false,
+                "prim": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "setDepth": false,
+                "setEnv": false,
+                "setFresnel": false,
+                "setLighting": false,
+                "setPrim": false
+              },
+              "meshFilter": "",
+              "model": 17660758381478844321
+            },
+            "id": 1,
+            "name": "Model (Static)",
+            "uuid": 10895636625588207853
+          },
+          {
+            "data": {
+              "angularDamping": 0.029999999329447746,
+              "constrainPosX": false,
+              "constrainPosY": false,
+              "constrainPosZ": false,
+              "constrainRotX": false,
+              "constrainRotY": false,
+              "constrainRotZ": false,
+              "gravityScalar": 1.0,
+              "hasGravity": true,
+              "isKinematic": false,
+              "mass": 1.0,
+              "timeScalar": 1.0
+            },
+            "id": 11,
+            "name": "Rigid-Body",
+            "uuid": 7840659204088600604
+          },
+          {
+            "data": {
+              "bounce": 0.0,
+              "friction": 0.800000011920929,
+              "halfExtend": [
+                64.0,
+                64.0,
+                64.0
+              ],
+              "isTrigger": false,
+              "maskRead": 1,
+              "maskWrite": 1,
+              "offset": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": 0
+            },
+            "id": 5,
+            "name": "Collider",
+            "uuid": 957567028208269608
+          }
+        ],
+        "enabled": true,
+        "name": "Ref box",
+        "pos": [
+          -174.94456481933594,
+          0.0,
+          0.0
+        ],
+        "propOverrides": {},
+        "proportionalScale": false,
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selectable": true,
+        "uuid": 2372705787,
         "uuidPrefab": 0
       }
     ],
