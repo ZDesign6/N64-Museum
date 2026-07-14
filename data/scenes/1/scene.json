@@ -291,7 +291,7 @@
                 64.0
               ],
               "isTrigger": false,
-              "maskRead": 0,
+              "maskRead": 1,
               "maskWrite": 1,
               "offset": [
                 0.0,
@@ -412,8 +412,8 @@
         "enabled": true,
         "name": "Box",
         "pos": [
-          6.087589263916016,
-          100.87845611572266,
+          9.16116714477539,
+          99.30908966064453,
           0.0
         ],
         "propOverrides": {},

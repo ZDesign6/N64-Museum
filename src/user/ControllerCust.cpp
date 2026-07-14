@@ -11,7 +11,7 @@ namespace
   constexpr float COYOTE_TIME = 0.15f;  // Grace window after leaving the floor
   float MOVE_SPEED  = 0.009f;
 
-  constexpr float CAM_DIST   = 0.5f;
+  constexpr float CAM_DIST   = .5f;
   constexpr float CAM_HEIGHT = 0.0f;
   constexpr float CAM_YAW_SNAP = 45.0_deg;
   constexpr float CAM_PITCH_SPEED = 2.0f;  // Pitch target change speed (radians/sec)
