@@ -70,21 +70,6 @@ namespace P64::Script::CD0A328E7EE01313
     //store derefed body
     auto &body = obj.getComponent<P64::Comp::CharBody>()->getBody();
 
-    if(pressed.r) {
-      data->planetGravity = !data->planetGravity;
-    }
-
-    constexpr float UP_TRANSITION_SPEED = 0.15f;
-    fm_vec3_t targetUp;
-    if(data->planetGravity) {
-      auto relPos =  obj.pos - PLANET_POS;
-      fm_vec3_norm(&targetUp, &relPos);
-    } else {
-      targetUp = {0.0f, 1.0f, 0.0f};
-    }
-    fm_vec3_lerp(&data->currentUp, &data->currentUp, &targetUp, UP_TRANSITION_SPEED);
-    fm_vec3_norm(&data->currentUp, &data->currentUp);
-    body.setUp(data->currentUp);
 
     const fm_vec3_t up = body.getSettings().up;
     fm_vec3_t forward0 = data->camForward - up * fm_vec3_dot(&data->camForward, &up);
@@ -123,8 +108,8 @@ namespace P64::Script::CD0A328E7EE01313
     // Camera controls
     if(pressed.c_right) data->camYawTarget -= CAM_YAW_SNAP;
     if(pressed.c_left)  data->camYawTarget += CAM_YAW_SNAP;
-    if(inp.btn.c_up)   data->camPitchTarget -= CAM_PITCH_SPEED * deltaTime;
-    if(inp.btn.c_down) data->camPitchTarget += CAM_PITCH_SPEED * deltaTime;
+    if(inp.btn.c_down)   data->camPitchTarget -= CAM_PITCH_SPEED * deltaTime;
+    if(inp.btn.c_up) data->camPitchTarget += CAM_PITCH_SPEED * deltaTime;
 
     // Clamp pitch target to prevent looking directly from above and going below floor.
     data->camPitchTarget = fmaxf(CAM_PITCH_MIN, fminf(CAM_PITCH_MAX, data->camPitchTarget));
@@ -150,16 +135,6 @@ namespace P64::Script::CD0A328E7EE01313
 
     body.inputVelocity = data->lastVel;
 
-    if(grounded) {
-      data->coyoteTimer = COYOTE_TIME;
-    } else if(data->coyoteTimer > 0.0f) {
-      data->coyoteTimer = fmaxf(0.0f, data->coyoteTimer - deltaTime);
-    }
-
-    if(pressed.a && data->coyoteTimer > 0.0f) {
-      body.setVelocity(body.getVelocity() + bodyUp * JUMP_SPEED);
-      data->coyoteTimer = 0.0f; // consume so we don't re-trigger mid-air
-    }
 
     ticks = get_ticks();
     body.moveAndSlide(deltaTime);
@@ -242,14 +217,12 @@ namespace P64::Script::CD0A328E7EE01313
     );
 */
     posY = 240 - 16;
-    Debug::printf(posX, posY, "State: %s %s",
-      body.isOnFloor() ? "Floor" : "  -  ",
+    Debug::printf(posX, posY, "State: %s",
       body.isOnSteepSurface() ? "Steep" : "  -  "
     );
     //posY -= 9;
     //Debug::printf(posX, posY, "T: %lldus", TICKS_TO_US(ticks));
     posY -= 9;
-    Debug::printf(posX, posY, "[R] Planet: %s", data->planetGravity ? "On " : "Off");
 
     rdpq_mode_pop();
 
