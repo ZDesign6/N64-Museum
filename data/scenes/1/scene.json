@@ -430,15 +430,15 @@
         "propOverrides": {},
         "proportionalScale": false,
         "rot": [
+          0.676577627658844,
           0.0,
           0.0,
-          0.0,
-          1.0
+          0.7363713383674622
         ],
         "scale": [
           1.0,
-          1.0,
-          1.0
+          0.9999996423721313,
+          0.9999995231628418
         ],
         "selectable": true,
         "uuid": 1006344143,
@@ -530,15 +530,15 @@
           },
           {
             "data": {
-              "args": {
-                "player": "1006344143",
-                "playerObj": "1006344143"
-              },
-              "script": 14573816117127146889
+              "objectUUID": 0,
+              "type": 3,
+              "usePos": false,
+              "useRot": false,
+              "useScale": false
             },
-            "id": 0,
-            "name": "Code",
-            "uuid": 3902421982883126634
+            "id": 7,
+            "name": "Constraint",
+            "uuid": 2521218605754904152
           }
         ],
         "enabled": true,
@@ -559,7 +559,7 @@
         "scale": [
           1.0,
           1.0,
-          1.0
+          0.09868093580007553
         ],
         "selectable": true,
         "uuid": 2372705787,

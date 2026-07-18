@@ -218,9 +218,7 @@ namespace P64::Script::CD0A328E7EE01313
     );
 */
     posY = 240 - 16;
-    Debug::printf(posX, posY, "State: %s",
-      body.isOnSteepSurface() ? "Steep" : "  -  "
-    );
+    Debug::printf(posX, posY, "State: %s", body.isOnSteepSurface() ? "Steep" : "  -  ");
     //posY -= 9;
     //Debug::printf(posX, posY, "T: %lldus", TICKS_TO_US(ticks));
     posY -= 9;
