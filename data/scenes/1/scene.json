@@ -633,21 +633,44 @@
           {
             "data": {
               "args": {
-                "heightOffset": " 5.0f",
-                "moveSpeed": " .05f"
+                "heightOffset": " 10.0f",
+                "hoverOn": "1",
+                "hoverSpeed": " .25f",
+                "maxScaleDecrease": " 0.0f",
+                "maxScaleIncrease": " 1.0f",
+                "maxXRot": " 0.0f",
+                "maxXScaleDecrease": " 0.0f",
+                "maxXScaleIncrease": " 1.0f",
+                "maxYScaleDecrease": " 0.0f",
+                "maxYScaleIncrease": " 1.0f",
+                "maxZScaleDecrease": " 0.5f",
+                "maxZScaleIncrease": " 1.0f",
+                "xRotOffset": " 0.0f",
+                "xRotOn": "0",
+                "xRotSpeed": ".05f",
+                "xScaleOn": "1",
+                "xScaleSpeed": " .0075f",
+                "yRotOn": "0",
+                "yRotSpeed": " .05f",
+                "yScaleOn": "1",
+                "yScaleSpeed": " .005f",
+                "zRotOn": "1",
+                "zRotSpeed": " .05f",
+                "zScaleOn": "1",
+                "zScaleSpeed": " .0025f"
               },
-              "script": 14865182434709145513
+              "script": 14767923327471905378
             },
             "id": 0,
             "name": "Code",
-            "uuid": 10330421521171268494
+            "uuid": 7272198133093158123
           }
         ],
         "enabled": true,
         "name": "Animate Box",
         "pos": [
           249.2032012939453,
-          6.229030609130859,
+          40.9912109375,
           -155.26986694335938
         ],
         "propOverrides": {},
