@@ -332,14 +332,14 @@
           },
           {
             "data": {
-              "audioUUID": 12107288197886556237,
+              "audioUUID": 16423303640833394767,
               "autoPlay": true,
               "loop": true,
-              "volume": 1.0
+              "volume": 0.25
             },
             "id": 6,
             "name": "Audio (2D)",
-            "uuid": 13775950619364626393
+            "uuid": 6078382074634236248
           }
         ],
         "enabled": true,
