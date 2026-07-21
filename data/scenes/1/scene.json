@@ -332,14 +332,14 @@
           },
           {
             "data": {
-              "audioUUID": 9614647544389181730,
-              "autoPlay": false,
-              "loop": false,
+              "audioUUID": 12107288197886556237,
+              "autoPlay": true,
+              "loop": true,
               "volume": 1.0
             },
             "id": 6,
             "name": "Audio (2D)",
-            "uuid": 8944944697780971911
+            "uuid": 13775950619364626393
           }
         ],
         "enabled": true,
@@ -777,7 +777,7 @@
                 ],
                 "setDepth": false,
                 "setEnv": false,
-                "setFresnel": false,
+                "setFresnel": true,
                 "setLighting": false,
                 "setPrim": false
               },
@@ -792,9 +792,9 @@
         "enabled": true,
         "name": "New Object",
         "pos": [
-          80.69745635986328,
-          -51.56224060058594,
-          232.82931518554688
+          80.0,
+          -50.0,
+          230.0
         ],
         "propOverrides": {},
         "proportionalScale": false,
