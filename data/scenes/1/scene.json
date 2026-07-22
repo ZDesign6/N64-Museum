@@ -112,7 +112,7 @@
               "far": 2000.0,
               "fov": 65.0,
               "mode": 0,
-              "near": 50.0,
+              "near": 100.0,
               "vpOffset": [
                 0,
                 0
@@ -270,7 +270,7 @@
         "name": "Floor Box",
         "pos": [
           -5.125,
-          -106.25,
+          129.28274536132813,
           0.0
         ],
         "propOverrides": {},
@@ -345,9 +345,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          10.0,
-          10.0,
-          200.0
+          0.0,
+          235.53271484375,
+          0.0
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -613,53 +613,1354 @@
         "uuidPrefab": 0
       },
       {
-        "children": [],
-        "components": [
+        "children": [
           {
-            "data": {
-              "culling": false,
-              "layerIdx": 0,
-              "material": {
-                "depth": 0,
-                "env": [
-                  0.9444444179534912,
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "fresnel": 0,
-                "fresnelColor": [
-                  0.0,
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "lighting": false,
-                "prim": [
-                  0.0,
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "setDepth": false,
-                "setEnv": false,
-                "setFresnel": false,
-                "setLighting": false,
-                "setPrim": false
-              },
-              "meshFilter": "",
-              "model": 9398245016636284042
-            },
-            "id": 1,
-            "name": "Model (Static)",
-            "uuid": 796964641928231324
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 4445052176002207323
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 1",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 713091523,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 14295585597934434498
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 2",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 1631645289,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 10000611450533593650
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 3",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 1376762448,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 5836702857501845794
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 4",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 469685830,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 3472389674022266226
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 5",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 3089134827,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 6626959676741875157
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 6",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 4190617755,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 13030622555643648674
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 7",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 2397493049,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 15264375428399163957
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 8",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 3367037959,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 1803562372250488410
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 9",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 972909230,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 14391176767827495738
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 10",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 1711259655,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 8273943271607410041
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 11",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 1499553215,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 18321047323880616943
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 12",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 852517159,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 8647259892422722510
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 13",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 819699900,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 7389169890754763391
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 14",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 3302927520,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 9536523589662052620
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 15",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 970831654,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 7082554404302011278
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 16",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 1059310829,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 8745896903169049982
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 17",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 1296433234,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 17888711085908998362
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 18",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 1262331443,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 12065187660378149279
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 19",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 3163378779,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 9556958029099517628
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              }
+            ],
+            "enabled": true,
+            "name": "Room 20",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 4027601242,
+            "uuidPrefab": 0
           }
         ],
+        "components": [],
         "enabled": true,
-        "name": "Hallways",
+        "name": "Rooms",
         "pos": [
           0.0,
-          -100.0,
+          0.0,
           0.0
         ],
         "propOverrides": {},
@@ -671,146 +1972,1045 @@
           1.0
         ],
         "scale": [
-          10.0,
-          10.0,
-          10.0
+          1.0,
+          1.0,
+          1.0
         ],
         "selectable": true,
-        "uuid": 3525807531,
+        "uuid": 3222116153,
         "uuidPrefab": 0
       },
       {
-        "children": [],
-        "components": [
+        "children": [
           {
-            "data": {
-              "culling": false,
-              "layerIdx": 0,
-              "material": {
-                "depth": 0,
-                "env": [
-                  0.0,
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "fresnel": 0,
-                "fresnelColor": [
-                  0.0,
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "lighting": false,
-                "prim": [
-                  0.0,
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "setDepth": false,
-                "setEnv": false,
-                "setFresnel": false,
-                "setLighting": false,
-                "setPrim": false
-              },
-              "meshFilter": "",
-              "model": 6669214894642994677
-            },
-            "id": 1,
-            "name": "Model (Static)",
-            "uuid": 16099541004246061688
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 17120801866536404163
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 1",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 3766240006,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 14572806755194381507
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 2",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 3579173480,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 11102549337258039625
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 3",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 1204879681,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 369738435395327302
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 4",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 1284790374,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 15192973927239905511
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 5",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 419246125,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 12722110007817465156
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 6",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 2634075751,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 3963634816709217975
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 7",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 288125607,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 10860881450993116969
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 8",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 559413110,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 1164208495504134783
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 9",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 2393325567,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 232805332608942600
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 10",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 3175052363,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 9334242591267024895
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 11",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 2867903590,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 14965472474973886951
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 12",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 4121068918,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 4029967598946962840
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 13",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 3908798567,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 5210986767313857344
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 14",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 3195372006,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 202041256593031216
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 10684523706575352791
+              }
+            ],
+            "enabled": true,
+            "name": "Hallway 15",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": false,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "selectable": true,
+            "uuid": 4278916038,
+            "uuidPrefab": 0
           }
         ],
+        "components": [],
         "enabled": true,
-        "name": "New Object",
+        "name": "Hallways",
         "pos": [
-          160.66632080078125,
-          52.54494094848633,
-          232.82931518554688
+          0.0,
+          0.0,
+          0.0
         ],
         "propOverrides": {},
         "proportionalScale": false,
         "rot": [
           0.0,
-          -0.013492852449417114,
           0.0,
-          0.999908983707428
+          0.0,
+          1.0
         ],
         "scale": [
-          1.9999966621398926,
-          2.0,
-          1.9999966621398926
+          1.0,
+          1.0,
+          1.0
         ],
         "selectable": true,
-        "uuid": 806627670,
-        "uuidPrefab": 0
-      },
-      {
-        "children": [],
-        "components": [
-          {
-            "data": {
-              "culling": false,
-              "layerIdx": 0,
-              "material": {
-                "depth": 0,
-                "env": [
-                  0.0,
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "fresnel": 0,
-                "fresnelColor": [
-                  0.0,
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "lighting": false,
-                "prim": [
-                  0.0,
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "setDepth": false,
-                "setEnv": false,
-                "setFresnel": true,
-                "setLighting": false,
-                "setPrim": false
-              },
-              "meshFilter": "",
-              "model": 6669214894642994677
-            },
-            "id": 1,
-            "name": "Model (Static)",
-            "uuid": 16099541004246061688
-          }
-        ],
-        "enabled": true,
-        "name": "New Object",
-        "pos": [
-          80.0,
-          -50.0,
-          230.0
-        ],
-        "propOverrides": {},
-        "proportionalScale": false,
-        "rot": [
-          0.0,
-          -0.013492886908352375,
-          0.0,
-          0.999908983707428
-        ],
-        "scale": [
-          5.0,
-          5.0,
-          1.999988317489624
-        ],
-        "selectable": true,
-        "uuid": 3342560351,
+        "uuid": 321273394,
         "uuidPrefab": 0
       }
     ],
