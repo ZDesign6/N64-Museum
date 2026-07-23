@@ -345,9 +345,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          0.0,
+          1495.8634033203125,
           103.31434631347656,
-          0.0
+          -197.85867309570313
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -463,11 +463,11 @@
             "uuid": 2521218605754904152
           }
         ],
-        "enabled": false,
+        "enabled": true,
         "name": "Billboard Box",
         "pos": [
           -262.5697937011719,
-          0.0,
+          203.6695556640625,
           -63.28684997558594
         ],
         "propOverrides": {},
@@ -586,14 +586,25 @@
             "id": 0,
             "name": "Code",
             "uuid": 7272198133093158123
+          },
+          {
+            "data": {
+              "args": {
+                "playerRef": "1006344143"
+              },
+              "script": 14138525084268296927
+            },
+            "id": 0,
+            "name": "Code",
+            "uuid": 545146735363031128
           }
         ],
-        "enabled": false,
+        "enabled": true,
         "name": "Animate Box",
         "pos": [
-          249.2032012939453,
-          40.9912109375,
-          -155.26986694335938
+          1545.507080078125,
+          132.2431640625,
+          -563.8980102539063
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -2045,7 +2056,7 @@
               8.0,
               8.0
             ],
-            "selectable": false,
+            "selectable": true,
             "uuid": 3766240006,
             "uuidPrefab": 0
           },
