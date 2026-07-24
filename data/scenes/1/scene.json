@@ -590,6 +590,9 @@
           {
             "data": {
               "args": {
+                "maxDifferenceX": "50",
+                "maxDifferenceY": "50",
+                "maxDifferenceZ": "50",
                 "playerRef": "1006344143"
               },
               "script": 14138525084268296927

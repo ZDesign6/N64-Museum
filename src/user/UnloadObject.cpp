@@ -25,11 +25,14 @@ namespace P64::Script::C43621A7AFC2FADF
 
     [[P64::Name("Reference to Player Obj")]]
     ObjectRef playerRef;
+    [[P64::Name("Max Viewable X Distance")]]
+    float maxDifferenceX;
+    [[P64::Name("Max Viewable Y Distance")]]
+    float maxDifferenceY;
+    [[P64::Name("Max Viewable Z Distance")]]
+    float maxDifferenceZ;
 
     // -- SCRIPT GLOBAL VARS --
-
-    //this represents the difference between this obj's pos and the player's pos. Assigned in fixedUpdate.
-    fm_vec3_t positionalDifference;
   );
 
   // The following functions are called by the engine at different points in the object's lifecycle.
@@ -53,20 +56,39 @@ namespace P64::Script::C43621A7AFC2FADF
   void fixedUpdate(Object& obj, Data *data, float fixedDeltaTime)
   {
     // this is called on the fixed physics timestep before collision/physics are stepped
-
-      //update the positional difference between this object and the player
-      data->positionalDifference = obj.pos - data->playerRef.get()->pos;
   }
 
   void draw(Object& obj, Data *data, float deltaTime)
   {
+      //re-calculate the difference in Z pos every frame, to avoid denormal errors
+      float xDifference = obj.pos.x - data->playerRef.get()->pos.x;
+      float yDifference = obj.pos.y - data->playerRef.get()->pos.y;
+      float zDifference = obj.pos.z - data->playerRef.get()->pos.z;
     // this is called once every frame, and for every active camera.
     // Put your drawing code here
       Debug::printStart();
       //printf(x, y, string w/ formatting argument, arg to format)
-      Debug::printf(50,50,"X Distance from the player: %f", data->positionalDifference.x);
-      Debug::printf(50, 75, "Y Distance from the player: %f", data->positionalDifference.y);
-      //Debug::printf(50, 100, "Z Distance from the player: %i", data->positionalDifference.z);
+      Debug::printf(50,50,"X Distance from the player: %f", xDifference);
+      Debug::printf(50, 75, "Y Distance from the player: %f", yDifference);
+      //Debug::printf(50, 100, "Z Distance from player: %f", obj.pos.z - data->playerRef.get()->pos.z);
+      Debug::printf(50, 100, "Z Distance from player: %f", zDifference);
+
+      //If object is beyond maxDifferenceX
+      if (xDifference >= data->maxDifferenceX || xDifference <= (data->maxDifferenceX * -1))
+      {
+          Debug::print(50, 150, "Exceeded X Distance!");
+
+      }
+      //If object is beyond maxDifferenceY
+      if (yDifference >= data->maxDifferenceY || yDifference <= (data->maxDifferenceY * -1))
+      {
+          Debug::print(50, 175, "Exceeded Y Distance!");
+      }
+      //If object is beyond maxDifferenceZ
+      if (zDifference >= data->maxDifferenceZ || zDifference <= (data->maxDifferenceZ * -1))
+      {
+          Debug::print(50, 200, "Exceeded Z Distance!");
+      }
 
   }
 
