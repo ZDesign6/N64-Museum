@@ -65,9 +65,9 @@ namespace P64::Script::C43621A7AFC2FADF
        //tracks if we are within the render distance. Assumed false, set true by logic. Controls visibility.
       bool withinRenderDistance = true;
       //re-calculate the difference in Z pos every frame, to avoid denormal errors
-      float xDifference = objXPos - data->playerRef.get()->pos.x;
-      float yDifference = objYPos - data->playerRef.get()->pos.y;
-      float zDifference = objZPos - data->playerRef.get()->pos.z;
+      float xDifference = data->objXPos - data->playerRef.get()->pos.x;
+      float yDifference = data->objYPos - data->playerRef.get()->pos.y;
+      float zDifference = data->objZPos - data->playerRef.get()->pos.z;
       // this is called once every frame, and for every active camera.
       // Put your drawing code here
       Debug::printStart();
