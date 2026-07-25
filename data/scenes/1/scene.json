@@ -2324,6 +2324,9 @@
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "-870",
+                    "objYPos": " 0.0f",
+                    "objZPos": "1480",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -2405,6 +2408,9 @@
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "2375",
+                    "objYPos": " 0.0f",
+                    "objZPos": "3000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -2486,6 +2492,9 @@
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "3200",
+                    "objYPos": " 0.0f",
+                    "objZPos": "6800",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -2567,6 +2576,9 @@
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "1000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "10000.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -2648,6 +2660,9 @@
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "-3950",
+                    "objYPos": " 0.0f",
+                    "objZPos": "10500.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -2729,6 +2744,9 @@
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "-2100.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "6500.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -2810,6 +2828,9 @@
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "-3500.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "5000.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -2891,6 +2912,9 @@
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "-3800.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "1200.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -2972,6 +2996,9 @@
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "-1500.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "-1100.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -3053,6 +3080,9 @@
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "-5600.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "-1800.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -3131,9 +3161,12 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceX": "4000",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "-4600.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "-4150.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -3215,6 +3248,9 @@
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "-4600.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "-7000.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -3296,6 +3332,9 @@
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "-2200.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "-6400.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -3376,7 +3415,10 @@
                   "args": {
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
+                    "maxDifferenceZ": "4000",
+                    "objXPos": "-7500",
+                    "objYPos": " 0.0f",
+                    "objZPos": "-2600.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -3458,6 +3500,9 @@
                     "maxDifferenceX": " 2000.0f",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "-6135.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "1850.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -3515,6 +3560,73 @@
         ],
         "selectable": true,
         "uuid": 321273394,
+        "uuidPrefab": 0
+      },
+      {
+        "children": [],
+        "components": [
+          {
+            "data": {
+              "culling": false,
+              "layerIdx": 0,
+              "material": {
+                "depth": 0,
+                "env": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "fresnel": 0,
+                "fresnelColor": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "lighting": false,
+                "prim": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "setDepth": false,
+                "setEnv": false,
+                "setFresnel": false,
+                "setLighting": false,
+                "setPrim": false
+              },
+              "meshFilter": "",
+              "model": 17660758381478844321
+            },
+            "id": 1,
+            "name": "Model (Static)",
+            "uuid": 14822298618865024469
+          }
+        ],
+        "enabled": true,
+        "name": "Pos Object",
+        "pos": [
+          -6135.0,
+          0.0,
+          1850.0
+        ],
+        "propOverrides": {},
+        "proportionalScale": false,
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selectable": true,
+        "uuid": 1259984788,
         "uuidPrefab": 0
       }
     ],
