@@ -345,7 +345,7 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          1495.8634033203125,
+          759.0655517578125,
           103.31434631347656,
           -197.85867309570313
         ],
@@ -676,6 +676,9 @@
                     "maxDifferenceX": "1000",
                     "maxDifferenceY": "1000",
                     "maxDifferenceZ": "1000",
+                    "objXPos": " 0.0f",
+                    "objYPos": " 0.0f",
+                    "objZPos": " 0.0f",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -683,6 +686,17 @@
                 "id": 0,
                 "name": "Code",
                 "uuid": 14671672472737175382
+              },
+              {
+                "data": {
+                  "maskRead": 0,
+                  "maskWrite": 1,
+                  "meshFilter": "",
+                  "modelUUID": 4445052176002207323
+                },
+                "id": 4,
+                "name": "Collision-Mesh",
+                "uuid": 17515053573020491906
               }
             ],
             "enabled": true,
@@ -757,6 +771,9 @@
                     "maxDifferenceX": "1000",
                     "maxDifferenceY": "1000",
                     "maxDifferenceZ": "1000",
+                    "objXPos": " 0.0f",
+                    "objYPos": " 0.0f",
+                    "objZPos": " 0.0f",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -764,6 +781,17 @@
                 "id": 0,
                 "name": "Code",
                 "uuid": 9373059525620800716
+              },
+              {
+                "data": {
+                  "maskRead": 0,
+                  "maskWrite": 1,
+                  "meshFilter": "",
+                  "modelUUID": 14295585597934434498
+                },
+                "id": 4,
+                "name": "Collision-Mesh",
+                "uuid": 14999974821308273558
               }
             ],
             "enabled": true,
@@ -838,6 +866,9 @@
                     "maxDifferenceX": "1000",
                     "maxDifferenceY": "1000",
                     "maxDifferenceZ": "1000",
+                    "objXPos": " 0.0f",
+                    "objYPos": " 0.0f",
+                    "objZPos": " 0.0f",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -845,6 +876,17 @@
                 "id": 0,
                 "name": "Code",
                 "uuid": 9986579734597819126
+              },
+              {
+                "data": {
+                  "maskRead": 0,
+                  "maskWrite": 1,
+                  "meshFilter": "",
+                  "modelUUID": 4235474134820109758
+                },
+                "id": 4,
+                "name": "Collision-Mesh",
+                "uuid": 9155628400302028595
               }
             ],
             "enabled": true,
@@ -1405,6 +1447,9 @@
                     "maxDifferenceX": " 1000.0f",
                     "maxDifferenceY": " 1000.0f",
                     "maxDifferenceZ": " 1000.0f",
+                    "objXPos": " 0.0f",
+                    "objYPos": " 0.0f",
+                    "objZPos": " 0.0f",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -1412,6 +1457,17 @@
                 "id": 0,
                 "name": "Code",
                 "uuid": 12311396173198328618
+              },
+              {
+                "data": {
+                  "maskRead": 0,
+                  "maskWrite": 1,
+                  "meshFilter": "",
+                  "modelUUID": 14391176767827495738
+                },
+                "id": 4,
+                "name": "Room 10 Collision Mesh",
+                "uuid": 11120502913067631189
               }
             ],
             "enabled": true,
