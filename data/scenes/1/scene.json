@@ -109,7 +109,7 @@
           {
             "data": {
               "aspect": 0.0,
-              "far": 2000.0,
+              "far": 5000.0,
               "fov": 65.0,
               "mode": 0,
               "near": 50.0,
@@ -147,7 +147,7 @@
           0.9999942183494568,
           0.9999811053276062
         ],
-        "selectable": false,
+        "selectable": true,
         "uuid": 2593312191,
         "uuidPrefab": 0
       },
@@ -590,9 +590,9 @@
           {
             "data": {
               "args": {
-                "maxDifferenceX": "50",
-                "maxDifferenceY": "50",
-                "maxDifferenceZ": "50",
+                "maxDifferenceX": "300",
+                "maxDifferenceY": "0",
+                "maxDifferenceZ": "300",
                 "playerRef": "1006344143"
               },
               "script": 14138525084268296927
@@ -669,6 +669,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": "1000",
+                    "maxDifferenceY": "1000",
+                    "maxDifferenceZ": "1000",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 14671672472737175382
               }
             ],
             "enabled": true,
@@ -736,6 +750,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": "1000",
+                    "maxDifferenceY": "1000",
+                    "maxDifferenceZ": "1000",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 9373059525620800716
               }
             ],
             "enabled": true,
@@ -803,6 +831,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": "1000",
+                    "maxDifferenceY": "1000",
+                    "maxDifferenceZ": "1000",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 9986579734597819126
               }
             ],
             "enabled": true,
@@ -870,6 +912,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": "1000",
+                    "maxDifferenceY": "1000",
+                    "maxDifferenceZ": "1000",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 7352308287912489637
               }
             ],
             "enabled": true,
@@ -937,6 +993,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 6689506706554974518
               }
             ],
             "enabled": true,
@@ -1004,6 +1074,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 16020393247145425752
               }
             ],
             "enabled": true,
@@ -1071,6 +1155,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 5702934061258463665
               }
             ],
             "enabled": true,
@@ -1138,6 +1236,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 3516448742483526861
               }
             ],
             "enabled": true,
@@ -1205,6 +1317,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 15648651804023646899
               }
             ],
             "enabled": true,
@@ -1272,6 +1398,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 12311396173198328618
               }
             ],
             "enabled": true,
@@ -1339,6 +1479,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 13565678053750839815
               }
             ],
             "enabled": true,
@@ -1406,6 +1560,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 7097543982534113991
               }
             ],
             "enabled": true,
@@ -1473,6 +1641,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 2087758360904411989
               }
             ],
             "enabled": true,
@@ -1540,6 +1722,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 4853191223003088805
               }
             ],
             "enabled": true,
@@ -1607,6 +1803,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 5058919345982776943
               }
             ],
             "enabled": true,
@@ -1674,6 +1884,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 11773421390260542773
               }
             ],
             "enabled": true,
@@ -1741,6 +1965,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 5452108597564764022
               }
             ],
             "enabled": true,
@@ -1808,6 +2046,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 16101030573452038297
               }
             ],
             "enabled": true,
@@ -1875,6 +2127,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 18421417491588335106
               }
             ],
             "enabled": true,
@@ -1942,6 +2208,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 3310743894118381819
               }
             ],
             "enabled": true,
@@ -2037,6 +2317,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 12723792096803527815
               }
             ],
             "enabled": true,
@@ -2104,6 +2398,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 2130805310280836090
               }
             ],
             "enabled": true,
@@ -2171,6 +2479,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 16298711386517396012
               }
             ],
             "enabled": true,
@@ -2238,6 +2560,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 1333663449077255394
               }
             ],
             "enabled": true,
@@ -2305,6 +2641,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 3468246002780947405
               }
             ],
             "enabled": true,
@@ -2372,6 +2722,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 11796589259121492196
               }
             ],
             "enabled": true,
@@ -2439,6 +2803,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 10365862364146109356
               }
             ],
             "enabled": true,
@@ -2506,6 +2884,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 17872807329006233239
               }
             ],
             "enabled": true,
@@ -2573,6 +2965,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 10015755209211036915
               }
             ],
             "enabled": true,
@@ -2640,6 +3046,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 15197067040200552755
               }
             ],
             "enabled": true,
@@ -2707,6 +3127,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 9564181230318820486
               }
             ],
             "enabled": true,
@@ -2774,6 +3208,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 17586496045166104537
               }
             ],
             "enabled": true,
@@ -2841,6 +3289,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 16584080480806715270
               }
             ],
             "enabled": true,
@@ -2908,6 +3370,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 14713534152697405802
               }
             ],
             "enabled": true,
@@ -2975,6 +3451,20 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 6024425882312223582
               }
             ],
             "enabled": true,
