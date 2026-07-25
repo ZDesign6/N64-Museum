@@ -961,6 +961,9 @@
                     "maxDifferenceX": "1000",
                     "maxDifferenceY": "1000",
                     "maxDifferenceZ": "1000",
+                    "objXPos": " 0.0f",
+                    "objYPos": " 0.0f",
+                    "objZPos": " 0.0f",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -1042,6 +1045,9 @@
                     "maxDifferenceX": " 1000.0f",
                     "maxDifferenceY": " 1000.0f",
                     "maxDifferenceZ": " 1000.0f",
+                    "objXPos": " 0.0f",
+                    "objYPos": " 0.0f",
+                    "objZPos": " 0.0f",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927

@@ -11,3 +11,6 @@ Makefile
 assets/p64
 src/p64
 engine
+
+#Engine Settings
+project.p64proj
