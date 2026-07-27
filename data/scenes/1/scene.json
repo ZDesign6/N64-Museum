@@ -2793,9 +2793,9 @@
                 "enabled": true,
                 "name": "Ouroboros",
                 "pos": [
-                  3200.033203125,
+                  3200.0,
                   250.0,
-                  8718.0224609375
+                  8718.0
                 ],
                 "propOverrides": {},
                 "proportionalScale": true,
