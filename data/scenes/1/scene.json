@@ -2395,112 +2395,6 @@
                 "components": [
                   {
                     "data": {
-                      "culling": false,
-                      "layerIdx": 1,
-                      "material": {
-                        "depth": 0,
-                        "env": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "fresnel": 0,
-                        "fresnelColor": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "lighting": false,
-                        "prim": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "setDepth": false,
-                        "setEnv": false,
-                        "setFresnel": false,
-                        "setLighting": false,
-                        "setPrim": false
-                      },
-                      "meshFilter": "",
-                      "model": 6667508258262216949
-                    },
-                    "id": 1,
-                    "name": "Model (Static)",
-                    "uuid": 4240563499840536101
-                  },
-                  {
-                    "data": {
-                      "culling": false,
-                      "layerIdx": 0,
-                      "material": {
-                        "depth": 0,
-                        "env": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "fresnel": 0,
-                        "fresnelColor": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "lighting": false,
-                        "prim": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "setDepth": false,
-                        "setEnv": false,
-                        "setFresnel": false,
-                        "setLighting": false,
-                        "setPrim": false
-                      },
-                      "meshFilter": "",
-                      "model": 0
-                    },
-                    "id": 1,
-                    "name": "Model (Static)",
-                    "uuid": 12154859220740383397
-                  }
-                ],
-                "enabled": true,
-                "name": "Fog",
-                "pos": [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "propOverrides": {},
-                "proportionalScale": true,
-                "rot": [
-                  0.0,
-                  0.0,
-                  0.0,
-                  1.0
-                ],
-                "scale": [
-                  8.0,
-                  8.0,
-                  8.0
-                ],
-                "selectable": true,
-                "uuid": 2626476444,
-                "uuidPrefab": 0
-              },
-              {
-                "children": [],
-                "components": [
-                  {
-                    "data": {
                       "bounce": 0.0,
                       "friction": 0.800000011920929,
                       "halfExtend": [
@@ -3077,7 +2971,1362 @@
       {
         "children": [
           {
-            "children": [],
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      256.44158935546875,
+                      258.9945983886719,
+                      986.7049560546875
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.14084231853485107,
+                      27.021434783935547,
+                      8.881986618041992
+                    ],
+                    "selectable": true,
+                    "uuid": 2622505751,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -979.0225219726563,
+                      277.3316650390625,
+                      2467.518798828125
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.3703349232673645,
+                      27.571025848388672,
+                      3.3069841861724854
+                    ],
+                    "selectable": true,
+                    "uuid": 512864044,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -814.8062744140625,
+                      277.3316650390625,
+                      2467.518798828125
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.3703349232673645,
+                      27.571025848388672,
+                      3.3069841861724854
+                    ],
+                    "selectable": true,
+                    "uuid": 557475660,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      255.2350616455078,
+                      258.9945983886719,
+                      1321.5606689453125
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.14084231853485107,
+                      27.021434783935547,
+                      8.881986618041992
+                    ],
+                    "selectable": true,
+                    "uuid": 1974710454,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -640.32275390625,
+                      252.8434295654297,
+                      2171.633056640625
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.2644979655742645,
+                      27.571025848388672,
+                      25.146398544311523
+                    ],
+                    "selectable": true,
+                    "uuid": 35016526,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -284.0007019042969,
+                      252.8434295654297,
+                      1930.860595703125
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.6999799013137817,
+                      0.0,
+                      0.7141625285148621
+                    ],
+                    "scale": [
+                      0.543808102607727,
+                      38.603370666503906,
+                      35.45276641845703
+                    ],
+                    "selectable": true,
+                    "uuid": 1937201862,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -759.5104370117188,
+                      252.8434295654297,
+                      1395.2374267578125
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.6999800205230713,
+                      0.0,
+                      0.7141624689102173
+                    ],
+                    "scale": [
+                      0.543808102607727,
+                      38.60336685180664,
+                      37.899940490722656
+                    ],
+                    "selectable": true,
+                    "uuid": 3083571239,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -386.1241455078125,
+                      252.8434295654297,
+                      1153.0576171875
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.5453375577926636,
+                      27.571025848388672,
+                      25.39203453063965
+                    ],
+                    "selectable": true,
+                    "uuid": 1387132282,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -62.36339569091797,
+                      252.8434295654297,
+                      890.093017578125
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      -0.7003297209739685,
+                      0.0,
+                      0.7138195037841797
+                    ],
+                    "scale": [
+                      0.27757468819618225,
+                      27.571025848388672,
+                      31.799455642700195
+                    ],
+                    "selectable": true,
+                    "uuid": 2587544702,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      188.25726318359375,
+                      252.8434295654297,
+                      1403.806884765625
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      -0.6629370450973511,
+                      0.0,
+                      0.7486751079559326
+                    ],
+                    "scale": [
+                      0.15912561118602753,
+                      27.571025848388672,
+                      6.145808696746826
+                    ],
+                    "selectable": true,
+                    "uuid": 4065132016,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      127.8850326538086,
+                      252.8434295654297,
+                      1665.726806640625
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.2644979655742645,
+                      27.571025848388672,
+                      25.84375
+                    ],
+                    "selectable": true,
+                    "uuid": 319701737,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -1153.064208984375,
+                      252.8434295654297,
+                      1918.4176025390625
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.2644979655742645,
+                      27.571025848388672,
+                      51.199684143066406
+                    ],
+                    "selectable": true,
+                    "uuid": 79951688,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -1065.058349609375,
+                      277.3316650390625,
+                      2436.929443359375
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.7020382881164551,
+                      0.0,
+                      0.7121391892433167
+                    ],
+                    "scale": [
+                      0.3703349232673645,
+                      27.571025848388672,
+                      8.950610160827637
+                    ],
+                    "selectable": true,
+                    "uuid": 975512263,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      289.7901306152344,
+                      90.84185791015625,
+                      1071.86669921875
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      -0.7000849843025208,
+                      0.0,
+                      0.7140595316886902
+                    ],
+                    "scale": [
+                      0.26768314838409424,
+                      9.527073860168457,
+                      3.4020979404449463
+                    ],
+                    "selectable": true,
+                    "uuid": 2636432630,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -730.3047485351563,
+                      277.3316650390625,
+                      2436.929443359375
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.7020382881164551,
+                      0.0,
+                      0.7121391892433167
+                    ],
+                    "scale": [
+                      0.3703349232673645,
+                      27.571025848388672,
+                      8.950610160827637
+                    ],
+                    "selectable": true,
+                    "uuid": 2421655739,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      289.7901306152344,
+                      90.84185791015625,
+                      1231.6129150390625
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      -0.7000849843025208,
+                      0.0,
+                      0.7140595316886902
+                    ],
+                    "scale": [
+                      0.26768314838409424,
+                      9.527073860168457,
+                      3.4020578861236572
+                    ],
+                    "selectable": true,
+                    "uuid": 35745865,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -1408.54541015625,
+                      252.8434295654297,
+                      1918.4176025390625
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.2644979655742645,
+                      27.571025848388672,
+                      51.199684143066406
+                    ],
+                    "selectable": true,
+                    "uuid": 1672937418,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -1919.173583984375,
+                      252.8434295654297,
+                      1918.4176025390625
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.2644979655742645,
+                      27.571025848388672,
+                      51.199684143066406
+                    ],
+                    "selectable": true,
+                    "uuid": 974095213,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -1498.73046875,
+                      277.3316650390625,
+                      2436.929443359375
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.7020382881164551,
+                      0.0,
+                      0.7121391892433167
+                    ],
+                    "scale": [
+                      0.3703349232673645,
+                      27.571025848388672,
+                      8.950610160827637
+                    ],
+                    "selectable": true,
+                    "uuid": 390365704,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -1583.9791259765625,
+                      277.3316650390625,
+                      2467.518798828125
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.3703349232673645,
+                      27.571025848388672,
+                      3.3069841861724854
+                    ],
+                    "selectable": true,
+                    "uuid": 3462438813,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -1743.42333984375,
+                      277.3316650390625,
+                      2467.518798828125
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.3703349232673645,
+                      27.571025848388672,
+                      3.3069841861724854
+                    ],
+                    "selectable": true,
+                    "uuid": 772727324,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -1830.4217529296875,
+                      277.3316650390625,
+                      2436.929443359375
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.7020382881164551,
+                      0.0,
+                      0.7121391892433167
+                    ],
+                    "scale": [
+                      0.3703349232673645,
+                      27.571025848388672,
+                      8.950610160827637
+                    ],
+                    "selectable": true,
+                    "uuid": 3835185654,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -1830.4217529296875,
+                      277.3316650390625,
+                      1408.8492431640625
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.7020382881164551,
+                      0.0,
+                      0.7121391892433167
+                    ],
+                    "scale": [
+                      0.3703349232673645,
+                      27.571025848388672,
+                      8.950610160827637
+                    ],
+                    "selectable": true,
+                    "uuid": 1698312279,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -1498.73046875,
+                      277.3316650390625,
+                      1406.9462890625
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.7020382881164551,
+                      0.0,
+                      0.7121391892433167
+                    ],
+                    "scale": [
+                      0.3703349232673645,
+                      27.571025848388672,
+                      8.950610160827637
+                    ],
+                    "selectable": true,
+                    "uuid": 596817967,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -1583.9791259765625,
+                      277.3316650390625,
+                      1375.2271728515625
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.3703349232673645,
+                      27.571025848388672,
+                      3.3069841861724854
+                    ],
+                    "selectable": true,
+                    "uuid": 988018310,
+                    "uuidPrefab": 0
+                  },
+                  {
+                    "children": [],
+                    "components": [
+                      {
+                        "data": {
+                          "bounce": 0.0,
+                          "friction": 0.800000011920929,
+                          "halfExtend": [
+                            10.0,
+                            10.0,
+                            10.0
+                          ],
+                          "isTrigger": false,
+                          "maskRead": 1,
+                          "maskWrite": 1,
+                          "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "type": 0
+                        },
+                        "id": 5,
+                        "name": "Collider",
+                        "uuid": 13398854967431402581
+                      }
+                    ],
+                    "enabled": true,
+                    "name": "Collider",
+                    "pos": [
+                      -1743.42333984375,
+                      277.3316650390625,
+                      1375.5614013671875
+                    ],
+                    "propOverrides": {},
+                    "proportionalScale": false,
+                    "rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "scale": [
+                      0.3703349232673645,
+                      27.571025848388672,
+                      3.3069841861724854
+                    ],
+                    "selectable": true,
+                    "uuid": 1067478911,
+                    "uuidPrefab": 0
+                  }
+                ],
+                "components": [],
+                "enabled": true,
+                "name": "Hallway 1 Colliders",
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "selectable": true,
+                "uuid": 4178060864,
+                "uuidPrefab": 0
+              }
+            ],
             "components": [
               {
                 "data": {
