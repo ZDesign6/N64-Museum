@@ -345,9 +345,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          759.0655517578125,
+          -1334.019775390625,
           103.31434631347656,
-          -197.85867309570313
+          -7165.6083984375
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -673,9 +673,9 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": "1000",
-                    "maxDifferenceY": "1000",
-                    "maxDifferenceZ": "1000",
+                    "maxDifferenceX": "1500",
+                    "maxDifferenceY": "1500",
+                    "maxDifferenceZ": "1500",
                     "objXPos": " 0.0f",
                     "objYPos": " 0.0f",
                     "objZPos": " 0.0f",
@@ -689,14 +689,20 @@
               },
               {
                 "data": {
-                  "maskRead": 0,
-                  "maskWrite": 1,
-                  "meshFilter": "",
-                  "modelUUID": 4445052176002207323
+                  "args": {
+                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceY": " 2000.0f",
+                    "maxDifferenceZ": " 2000.0f",
+                    "objXPos": "-5400.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "3800.000",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
                 },
-                "id": 4,
-                "name": "Collision-Mesh",
-                "uuid": 17515053573020491906
+                "id": 0,
+                "name": "Code",
+                "uuid": 747003485540797882
               }
             ],
             "enabled": true,
@@ -768,12 +774,12 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": "1000",
-                    "maxDifferenceY": "1000",
-                    "maxDifferenceZ": "1000",
-                    "objXPos": " 0.0f",
+                    "maxDifferenceX": "1500",
+                    "maxDifferenceY": "1500",
+                    "maxDifferenceZ": "1500",
+                    "objXPos": "-6000.000",
                     "objYPos": " 0.0f",
-                    "objZPos": " 0.0f",
+                    "objZPos": "-50.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -781,17 +787,6 @@
                 "id": 0,
                 "name": "Code",
                 "uuid": 9373059525620800716
-              },
-              {
-                "data": {
-                  "maskRead": 0,
-                  "maskWrite": 1,
-                  "meshFilter": "",
-                  "modelUUID": 14295585597934434498
-                },
-                "id": 4,
-                "name": "Collision-Mesh",
-                "uuid": 14999974821308273558
               }
             ],
             "enabled": true,
@@ -863,12 +858,12 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": "1000",
-                    "maxDifferenceY": "1000",
-                    "maxDifferenceZ": "1000",
-                    "objXPos": " 0.0f",
+                    "maxDifferenceX": "1500",
+                    "maxDifferenceY": "1500",
+                    "maxDifferenceZ": "1500",
+                    "objXPos": "-6400.000",
                     "objYPos": " 0.0f",
-                    "objZPos": " 0.0f",
+                    "objZPos": "-3300.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -876,17 +871,6 @@
                 "id": 0,
                 "name": "Code",
                 "uuid": 9986579734597819126
-              },
-              {
-                "data": {
-                  "maskRead": 0,
-                  "maskWrite": 1,
-                  "meshFilter": "",
-                  "modelUUID": 4235474134820109758
-                },
-                "id": 4,
-                "name": "Collision-Mesh",
-                "uuid": 9155628400302028595
               }
             ],
             "enabled": true,
@@ -961,16 +945,16 @@
                     "maxDifferenceX": "1000",
                     "maxDifferenceY": "1000",
                     "maxDifferenceZ": "1000",
-                    "objXPos": " 0.0f",
+                    "objXPos": "-6600.000",
                     "objYPos": " 0.0f",
-                    "objZPos": " 0.0f",
+                    "objZPos": "-5300.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
                 },
                 "id": 0,
                 "name": "Code",
-                "uuid": 7352308287912489637
+                "uuid": 16553119542681972175
               }
             ],
             "enabled": true,
@@ -1042,19 +1026,19 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
-                    "objXPos": " 0.0f",
+                    "maxDifferenceX": "1000",
+                    "maxDifferenceY": "1000",
+                    "maxDifferenceZ": "1000",
+                    "objXPos": "-5900.000",
                     "objYPos": " 0.0f",
-                    "objZPos": " 0.0f",
+                    "objZPos": "-6750.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
                 },
                 "id": 0,
                 "name": "Code",
-                "uuid": 6689506706554974518
+                "uuid": 40894932269223688
               }
             ],
             "enabled": true,
@@ -1129,6 +1113,9 @@
                     "maxDifferenceX": " 1000.0f",
                     "maxDifferenceY": " 1000.0f",
                     "maxDifferenceZ": " 1000.0f",
+                    "objXPos": "-4450.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "-5200.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -1207,9 +1194,12 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
+                    "maxDifferenceX": "1500",
+                    "maxDifferenceY": "1500",
+                    "maxDifferenceZ": "1500",
+                    "objXPos": "-3750.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "-2650.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -1288,16 +1278,19 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
+                    "maxDifferenceX": " 1500.0f",
+                    "maxDifferenceY": " 1500.0f",
+                    "maxDifferenceZ": " 1500.0f",
+                    "objXPos": "-800.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "-3600.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
                 },
                 "id": 0,
                 "name": "Code",
-                "uuid": 3516448742483526861
+                "uuid": 2242778153187908368
               }
             ],
             "enabled": true,
@@ -1372,6 +1365,9 @@
                     "maxDifferenceX": " 1000.0f",
                     "maxDifferenceY": " 1000.0f",
                     "maxDifferenceZ": " 1000.0f",
+                    "objXPos": "-1650.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "800.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -1450,12 +1446,12 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceX": "1500",
                     "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
-                    "objXPos": " 0.0f",
+                    "maxDifferenceZ": "1500",
+                    "objXPos": "1400.000",
                     "objYPos": " 0.0f",
-                    "objZPos": " 0.0f",
+                    "objZPos": "950.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -1463,17 +1459,6 @@
                 "id": 0,
                 "name": "Code",
                 "uuid": 12311396173198328618
-              },
-              {
-                "data": {
-                  "maskRead": 0,
-                  "maskWrite": 1,
-                  "meshFilter": "",
-                  "modelUUID": 14391176767827495738
-                },
-                "id": 4,
-                "name": "Room 10 Collision Mesh",
-                "uuid": 11120502913067631189
               }
             ],
             "enabled": true,
@@ -1548,6 +1533,9 @@
                     "maxDifferenceX": " 1000.0f",
                     "maxDifferenceY": " 1000.0f",
                     "maxDifferenceZ": " 1000.0f",
+                    "objXPos": "-4500.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "6300.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -1629,6 +1617,9 @@
                     "maxDifferenceX": " 1000.0f",
                     "maxDifferenceY": " 1000.0f",
                     "maxDifferenceZ": " 1000.0f",
+                    "objXPos": "-650",
+                    "objYPos": " 0.0f",
+                    "objZPos": "5500.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -1707,9 +1698,12 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
+                    "maxDifferenceX": "1000",
+                    "maxDifferenceY": "1000",
+                    "maxDifferenceZ": "2000",
+                    "objXPos": "1100.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "5600.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -1788,9 +1782,12 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
+                    "maxDifferenceX": "1500",
+                    "maxDifferenceY": "1500",
+                    "maxDifferenceZ": "1500",
+                    "objXPos": "-3050.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "8750.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -1869,9 +1866,12 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
+                    "maxDifferenceX": "1500",
+                    "maxDifferenceY": "1500",
+                    "maxDifferenceZ": "1500",
+                    "objXPos": "3600.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "2700.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -1950,9 +1950,12 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
+                    "maxDifferenceX": "1500",
+                    "maxDifferenceY": "1500",
+                    "maxDifferenceZ": "1500",
+                    "objXPos": "-6400.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "9150.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -2033,7 +2036,10 @@
                   "args": {
                     "maxDifferenceX": " 1000.0f",
                     "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
+                    "maxDifferenceZ": "1500",
+                    "objXPos": "-1300",
+                    "objYPos": " 0.0f",
+                    "objZPos": "11300.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -2115,6 +2121,9 @@
                     "maxDifferenceX": " 1000.0f",
                     "maxDifferenceY": " 1000.0f",
                     "maxDifferenceZ": " 1000.0f",
+                    "objXPos": "1300.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "10000.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -2196,6 +2205,9 @@
                     "maxDifferenceX": " 1000.0f",
                     "maxDifferenceY": " 1000.0f",
                     "maxDifferenceZ": " 1000.0f",
+                    "objXPos": "3200.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "8000.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -2274,9 +2286,12 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
+                    "maxDifferenceX": "1500",
+                    "maxDifferenceY": "1500",
+                    "maxDifferenceZ": "1500",
+                    "objXPos": "-1000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "8900.000",
                     "playerRef": "1006344143"
                   },
                   "script": 14138525084268296927
@@ -3055,7 +3070,7 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": " 2000.0f",
+                    "maxDifferenceX": "2500",
                     "maxDifferenceY": " 2000.0f",
                     "maxDifferenceZ": " 2000.0f",
                     "objXPos": "-1500.000",
@@ -3670,9 +3685,9 @@
         "enabled": true,
         "name": "Pos Object",
         "pos": [
-          -6135.0,
+          -1000.0,
           0.0,
-          1850.0
+          8900.0
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -3687,7 +3702,7 @@
           1.0,
           1.0
         ],
-        "selectable": true,
+        "selectable": false,
         "uuid": 1259984788,
         "uuidPrefab": 0
       }

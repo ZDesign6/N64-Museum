@@ -26,11 +26,11 @@ namespace P64::Script::C43621A7AFC2FADF
     [[P64::Name("Reference to Player Obj")]]
     ObjectRef playerRef;
     [[P64::Name("Max Viewable X Distance")]]
-    float maxDifferenceX = 2000.0f;
+    float maxDifferenceX = 1500.0f;
     [[P64::Name("Max Viewable Y Distance")]]
-    float maxDifferenceY = 2000.0f;
+    float maxDifferenceY = 1500.0f;
     [[P64::Name("Max Viewable Z Distance")]]
-    float maxDifferenceZ = 2000.0f;
+    float maxDifferenceZ = 1500.0f;
     [[P64::Name("This Obj's X Pos")]]
     float objXPos = 0.0f;
     [[P64::Name("This Obj's Y Pos")]]
