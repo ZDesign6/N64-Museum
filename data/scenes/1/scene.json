@@ -345,15 +345,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-<<<<<<< HEAD
-          -6225.078125,
+          1386.7591552734375,
           100.0,
           337.293701171875
-=======
-          -5408.994140625,
-          103.31434631347656,
-          -5279.25244140625
->>>>>>> 288719d60ca28a41ca27371005d242b55c084187
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -408,7 +402,7 @@
                 "setPrim": false
               },
               "meshFilter": "",
-              "model": 1186402540331451248
+              "model": 17660758381478844321
             },
             "id": 1,
             "name": "Model (Static)",
@@ -736,106 +730,7 @@
             "uuidPrefab": 0
           },
           {
-            "children": [
-              {
-                "children": [],
-                "components": [
-                  {
-                    "data": {
-                      "culling": false,
-                      "layerIdx": 0,
-                      "material": {
-                        "depth": 0,
-                        "env": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "fresnel": 0,
-                        "fresnelColor": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "lighting": false,
-                        "prim": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "setDepth": false,
-                        "setEnv": false,
-                        "setFresnel": false,
-                        "setLighting": false,
-                        "setPrim": false
-                      },
-                      "meshFilter": "",
-                      "model": 5978699873144264422
-                    },
-                    "id": 1,
-                    "name": "Model (Static)",
-                    "uuid": 8194161246715452819
-                  },
-                  {
-                    "data": {
-                      "args": {
-                        "heightOffset": " 5.0f",
-                        "hoverOn": " 1",
-                        "hoverSpeed": " .5f",
-                        "maxXScaleDecrease": " 0.0f",
-                        "maxXScaleIncrease": " 1.0f",
-                        "maxYScaleDecrease": " 0.0f",
-                        "maxYScaleIncrease": " 1.0f",
-                        "maxZScaleDecrease": " 0.0f",
-                        "maxZScaleIncrease": " 1.0f",
-                        "xRotOn": " 0",
-                        "xRotSpeed": " .05f",
-                        "xScaleOn": " 0",
-                        "xScaleSpeed": " .005f",
-                        "yRotOn": " 1",
-                        "yRotSpeed": " .08f",
-                        "yScaleOn": " 1",
-                        "yScaleSpeed": " .005f",
-                        "zRotOn": " 0",
-                        "zRotSpeed": " .05f",
-                        "zScaleOn": " 0",
-                        "zScaleSpeed": " .005f"
-                      },
-                      "script": 14767923327471905378
-                    },
-                    "id": 0,
-                    "name": "Code",
-                    "uuid": 4760921525758037244
-                  }
-                ],
-                "enabled": true,
-                "name": "Deviled Eggs",
-                "pos": [
-                  -6000.0,
-                  10.615692138671875,
-                  -100.0
-                ],
-                "propOverrides": {},
-                "proportionalScale": false,
-                "rot": [
-                  0.0,
-                  0.0,
-                  0.0,
-                  1.0
-                ],
-                "scale": [
-                  10.0,
-                  10.0,
-                  10.0
-                ],
-                "selectable": true,
-                "uuid": 4201707074,
-                "uuidPrefab": 0
-              }
-            ],
+            "children": [],
             "components": [
               {
                 "data": {
@@ -1355,9 +1250,9 @@
                 "proportionalScale": true,
                 "rot": [
                   0.0,
-                  -0.516183614730835,
                   0.0,
-                  0.8564779162406921
+                  0.0,
+                  1.0
                 ],
                 "scale": [
                   8.0,
@@ -1479,9 +1374,9 @@
               {
                 "data": {
                   "args": {
-                    "maxDifferenceX": " 1500.0f",
-                    "maxDifferenceY": " 1500.0f",
-                    "maxDifferenceZ": " 1500.0f",
+                    "maxDifferenceX": " 1000.0f",
+                    "maxDifferenceY": " 1000.0f",
+                    "maxDifferenceZ": " 1000.0f",
                     "objXPos": "-4450.000",
                     "objYPos": " 0.0f",
                     "objZPos": "-5200.000",
@@ -1771,7 +1666,6 @@
             "uuidPrefab": 0
           },
           {
-<<<<<<< HEAD
             "children": [
               {
                 "children": [],
@@ -1819,22 +1713,22 @@
                 "enabled": true,
                 "name": "Toy",
                 "pos": [
-                  1781.4727783203125,
-                  0.0,
-                  439.1026611328125
+                  1171.8681640625,
+                  4.6806640625,
+                  1371.8427734375
                 ],
                 "propOverrides": {},
                 "proportionalScale": false,
                 "rot": [
-                  0.7705166935920715,
-                  -0.49848031997680664,
-                  -0.3712158203125,
-                  0.14149291813373566
+                  1.0,
+                  0.0,
+                  0.0,
+                  -4.371140960302e-08
                 ],
                 "scale": [
-                  0.5613260865211487,
-                  0.5613261461257935,
-                  0.5613257884979248
+                  0.7100000381469727,
+                  0.7100000381469727,
+                  0.7100000381469727
                 ],
                 "selectable": true,
                 "uuid": 296017822,
@@ -1886,22 +1780,22 @@
                 "enabled": true,
                 "name": "Toy",
                 "pos": [
-                  2105.112548828125,
-                  22.5,
-                  790.9053955078125
+                  600.0,
+                  30.0,
+                  735.48974609375
                 ],
                 "propOverrides": {},
                 "proportionalScale": false,
                 "rot": [
                   0.0,
-                  0.9581215381622314,
+                  -0.3552439510822296,
                   0.0,
-                  -0.2863618731498718
+                  0.9347736239433289
                 ],
                 "scale": [
-                  0.9999997615814209,
+                  0.9999999403953552,
                   1.0,
-                  0.9999997615814209
+                  0.9999999403953552
                 ],
                 "selectable": true,
                 "uuid": 669645786,
@@ -1953,9 +1847,9 @@
                 "enabled": true,
                 "name": "Toy",
                 "pos": [
-                  1975.998046875,
+                  1866.5986328125,
                   30.0,
-                  414.6258239746094
+                  505.1624755859375
                 ],
                 "propOverrides": {},
                 "proportionalScale": false,
@@ -1966,287 +1860,75 @@
                   1.0
                 ],
                 "scale": [
-                  0.8600000143051147,
-                  0.8600000143051147,
-                  0.8600000143051147
+                  1.0,
+                  1.0,
+                  1.0
                 ],
                 "selectable": true,
                 "uuid": 3576096664,
                 "uuidPrefab": 0
               },
               {
-                "children": [
+                "children": [],
+                "components": [
                   {
-                    "children": [],
-                    "components": [
-                      {
-                        "data": {
-                          "culling": false,
-                          "layerIdx": 0,
-                          "material": {
-                            "depth": 0,
-                            "env": [
-                              0.0,
-                              0.0,
-                              0.0,
-                              0.0
-                            ],
-                            "fresnel": 0,
-                            "fresnelColor": [
-                              0.0,
-                              0.0,
-                              0.0,
-                              0.0
-                            ],
-                            "lighting": false,
-                            "prim": [
-                              0.0,
-                              0.0,
-                              0.0,
-                              0.0
-                            ],
-                            "setDepth": false,
-                            "setEnv": false,
-                            "setFresnel": false,
-                            "setLighting": false,
-                            "setPrim": false
-                          },
-                          "meshFilter": "",
-                          "model": 17052917480639510739
-                        },
-                        "id": 1,
-                        "name": "Model (Static)",
-                        "uuid": 17192948543651004981
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 1,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
                       },
-                      {
-                        "data": {
-                          "args": {
-                            "heightOffset": " 5",
-                            "hoverOn": " 1",
-                            "hoverSpeed": " .5f",
-                            "maxXScaleDecrease": " 0.0f",
-                            "maxXScaleIncrease": " 1.0f",
-                            "maxYScaleDecrease": " 0.0f",
-                            "maxYScaleIncrease": " 1.0f",
-                            "maxZScaleDecrease": " 0.0f",
-                            "maxZScaleIncrease": " 1.0f",
-                            "xRotOn": " 0",
-                            "xRotSpeed": " .05f",
-                            "xScaleOn": " 0",
-                            "xScaleSpeed": " .005f",
-                            "yRotOn": " 0",
-                            "yRotSpeed": " .05f",
-                            "yScaleOn": " 0",
-                            "yScaleSpeed": " .005f",
-                            "zRotOn": " 0",
-                            "zRotSpeed": " .05f",
-                            "zScaleOn": " 0",
-                            "zScaleSpeed": " .005f"
-                          },
-                          "script": 14767923327471905378
-                        },
-                        "id": 0,
-                        "name": "Code",
-                        "uuid": 10214323709903330644
-                      }
-                    ],
-                    "enabled": true,
-                    "name": "Dog",
-                    "pos": [
-                      2366.294921875,
-                      205.88760375976563,
-                      425.54095458984375
-                    ],
-                    "propOverrides": {},
-                    "proportionalScale": false,
-                    "rot": [
-                      0.07546371966600418,
-                      -0.43172839283943176,
-                      0.01603657566010952,
-                      0.8986983299255371
-                    ],
-                    "scale": [
-                      14.254742622375488,
-                      14.254738807678223,
-                      14.254737854003906
-                    ],
-                    "selectable": true,
-                    "uuid": 753500255,
-                    "uuidPrefab": 0
+                      "meshFilter": "",
+                      "model": 8581536892958969404
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17192948543651004981
                   },
                   {
-                    "children": [],
-                    "components": [
-                      {
-                        "data": {
-                          "culling": false,
-                          "layerIdx": 0,
-                          "material": {
-                            "depth": 0,
-                            "env": [
-                              0.0,
-                              0.0,
-                              0.0,
-                              0.0
-                            ],
-                            "fresnel": 0,
-                            "fresnelColor": [
-                              0.0,
-                              0.0,
-                              0.0,
-                              0.0
-                            ],
-                            "lighting": false,
-                            "prim": [
-                              0.0,
-                              0.0,
-                              0.0,
-                              0.0
-                            ],
-                            "setDepth": false,
-                            "setEnv": false,
-                            "setFresnel": false,
-                            "setLighting": false,
-                            "setPrim": false
-                          },
-                          "meshFilter": "",
-                          "model": 17052917480639510739
-                        },
-                        "id": 1,
-                        "name": "Model (Static)",
-                        "uuid": 17192948543651004981
-                      },
-                      {
-                        "data": {
-                          "args": {
-                            "heightOffset": " 3.0f",
-                            "hoverOn": " 1",
-                            "hoverSpeed": " .5f",
-                            "maxXScaleDecrease": " 0.0f",
-                            "maxXScaleIncrease": " 1.0f",
-                            "maxYScaleDecrease": " 0.0f",
-                            "maxYScaleIncrease": " 1.0f",
-                            "maxZScaleDecrease": " 0.0f",
-                            "maxZScaleIncrease": " 1.0f",
-                            "xRotOn": " 0",
-                            "xRotSpeed": " .05f",
-                            "xScaleOn": " 0",
-                            "xScaleSpeed": " .005f",
-                            "yRotOn": " 0",
-                            "yRotSpeed": " .05f",
-                            "yScaleOn": " 0",
-                            "yScaleSpeed": " .005f",
-                            "zRotOn": " 0",
-                            "zRotSpeed": " .05f",
-                            "zScaleOn": " 0",
-                            "zScaleSpeed": " .005f"
-                          },
-                          "script": 14767923327471905378
-                        },
-                        "id": 0,
-                        "name": "Code",
-                        "uuid": 10214323709903330644
-                      }
-                    ],
-                    "enabled": true,
-                    "name": "Dog",
-                    "pos": [
-                      2376.88037109375,
-                      213.62364196777344,
-                      402.3498229980469
-                    ],
-                    "propOverrides": {},
-                    "proportionalScale": false,
-                    "rot": [
-                      0.07546378672122955,
-                      -0.4317290484905243,
-                      0.016036629676818848,
-                      0.8986979722976685
-                    ],
-                    "scale": [
-                      14.254738807678223,
-                      14.254734992980957,
-                      14.254737854003906
-                    ],
-                    "selectable": true,
-                    "uuid": 1117390182,
-                    "uuidPrefab": 0
-                  },
-                  {
-                    "children": [],
-                    "components": [
-                      {
-                        "data": {
-                          "culling": false,
-                          "layerIdx": 0,
-                          "material": {
-                            "depth": 0,
-                            "env": [
-                              0.0,
-                              0.0,
-                              0.0,
-                              0.0
-                            ],
-                            "fresnel": 0,
-                            "fresnelColor": [
-                              0.0,
-                              0.0,
-                              0.0,
-                              0.0
-                            ],
-                            "lighting": false,
-                            "prim": [
-                              0.0,
-                              0.0,
-                              0.0,
-                              0.0
-                            ],
-                            "setDepth": false,
-                            "setEnv": false,
-                            "setFresnel": false,
-                            "setLighting": false,
-                            "setPrim": false
-                          },
-                          "meshFilter": "",
-                          "model": 8581536892958969404
-                        },
-                        "id": 1,
-                        "name": "Model (Static)",
-                        "uuid": 17192948543651004981
-                      }
-                    ],
-                    "enabled": true,
-                    "name": "Dog",
-                    "pos": [
-                      2418.718017578125,
-                      37.996116638183594,
-                      299.1683044433594
-                    ],
-                    "propOverrides": {},
-                    "proportionalScale": false,
-                    "rot": [
-                      0.07546365261077881,
-                      -0.43172967433929443,
-                      0.016036633402109146,
-                      0.8986976742744446
-                    ],
-                    "scale": [
-                      19.006315231323242,
-                      19.006315231323242,
-                      19.006315231323242
-                    ],
-                    "selectable": true,
-                    "uuid": 1773912764,
-                    "uuidPrefab": 0
+                    "data": {
+                      "objectUUID": 0,
+                      "type": 3,
+                      "usePos": false,
+                      "useRot": false,
+                      "useScale": false
+                    },
+                    "id": 7,
+                    "name": "Constraint",
+                    "uuid": 6022968216338681172
                   }
                 ],
-                "components": [],
                 "enabled": true,
-                "name": "New Object",
+                "name": "Dog",
                 "pos": [
-                  0.0,
-                  0.0,
-                  0.0
+                  1190.0,
+                  -0.8747138977050781,
+                  1050.0
                 ],
                 "propOverrides": {},
                 "proportionalScale": false,
@@ -2257,18 +1939,125 @@
                   1.0
                 ],
                 "scale": [
-                  1.0,
-                  1.0,
-                  1.0
+                  6.949999809265137,
+                  6.949999809265137,
+                  6.949999809265137
                 ],
                 "selectable": true,
-                "uuid": 1590566227,
+                "uuid": 3764179629,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 1,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 17052917480639510739
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17192948543651004981
+                  },
+                  {
+                    "data": {
+                      "objectUUID": 0,
+                      "type": 3,
+                      "usePos": false,
+                      "useRot": false,
+                      "useScale": false
+                    },
+                    "id": 7,
+                    "name": "Constraint",
+                    "uuid": 6022968216338681172
+                  },
+                  {
+                    "data": {
+                      "args": {
+                        "heightOffset": " 5.0f",
+                        "hoverOn": " 1",
+                        "hoverSpeed": " .5f",
+                        "maxXScaleDecrease": " 0.0f",
+                        "maxXScaleIncrease": " 1.0f",
+                        "maxYScaleDecrease": " 0.0f",
+                        "maxYScaleIncrease": " 1.0f",
+                        "maxZScaleDecrease": " 0.0f",
+                        "maxZScaleIncrease": " 1.0f",
+                        "xRotOn": " 0",
+                        "xRotSpeed": " .05f",
+                        "xScaleOn": " 0",
+                        "xScaleSpeed": " .005f",
+                        "yRotOn": " 0",
+                        "yRotSpeed": " .05f",
+                        "yScaleOn": " 0",
+                        "yScaleSpeed": " .005f",
+                        "zRotOn": " 0",
+                        "zRotSpeed": " .05f",
+                        "zScaleOn": " 0",
+                        "zScaleSpeed": " .005f"
+                      },
+                      "script": 14767923327471905378
+                    },
+                    "id": 0,
+                    "name": "Code",
+                    "uuid": 271645952105621701
+                  }
+                ],
+                "enabled": true,
+                "name": "Dog",
+                "pos": [
+                  1210.0,
+                  81.54002380371094,
+                  1090.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  4.454999923706055,
+                  4.454999923706055,
+                  4.454999923706055
+                ],
+                "selectable": true,
+                "uuid": 3707398613,
                 "uuidPrefab": 0
               }
             ],
-=======
-            "children": [],
->>>>>>> 288719d60ca28a41ca27371005d242b55c084187
             "components": [
               {
                 "data": {
@@ -4904,7 +4693,7 @@
                   }
                 ],
                 "components": [],
-                "enabled": false,
+                "enabled": true,
                 "name": "Hallway 1 Colliders",
                 "pos": [
                   0.0,
@@ -6189,7 +5978,7 @@
           }
         ],
         "components": [],
-        "enabled": true,
+        "enabled": false,
         "name": "Hallways",
         "pos": [
           0.0,
