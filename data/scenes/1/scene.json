@@ -345,9 +345,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          1386.7591552734375,
+          -5844.4638671875,
           100.0,
-          337.293701171875
+          -633.263916015625
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -730,7 +730,405 @@
             "uuidPrefab": 0
           },
           {
-            "children": [],
+            "children": [
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 5978699873144264422
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 8563304653253139547
+                  },
+                  {
+                    "data": {
+                      "args": {
+                        "heightOffset": " 2.0f",
+                        "hoverOn": " 1",
+                        "hoverSpeed": " 1f",
+                        "maxXScaleDecrease": " 0.0f",
+                        "maxXScaleIncrease": " 1.0f",
+                        "maxYScaleDecrease": " 0.0f",
+                        "maxYScaleIncrease": " 1.0f",
+                        "maxZScaleDecrease": " 0.0f",
+                        "maxZScaleIncrease": " 1.0f",
+                        "xRotOn": " 0",
+                        "xRotSpeed": " .05f",
+                        "xScaleOn": " 0",
+                        "xScaleSpeed": " .005f",
+                        "yRotOn": "1",
+                        "yRotSpeed": " 1f",
+                        "yScaleOn": " 0",
+                        "yScaleSpeed": " .005f",
+                        "zRotOn": " 0",
+                        "zRotSpeed": " .05f",
+                        "zScaleOn": " 0",
+                        "zScaleSpeed": " .005f"
+                      },
+                      "script": 14767923327471905378
+                    },
+                    "id": 0,
+                    "name": "Code",
+                    "uuid": 13577550003036170892
+                  }
+                ],
+                "enabled": true,
+                "name": "Deviledeggs",
+                "pos": [
+                  -5984.37353515625,
+                  120.0,
+                  -255.50665283203125
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  -0.23162275552749634,
+                  0.25939345359802246,
+                  0.06423196196556091,
+                  0.9353823661804199
+                ],
+                "scale": [
+                  4.8270039558410645,
+                  4.82700252532959,
+                  4.827004432678223
+                ],
+                "selectable": true,
+                "uuid": 2506890607,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 5978699873144264422
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 8563304653253139547
+                  },
+                  {
+                    "data": {
+                      "args": {
+                        "heightOffset": " 2.0f",
+                        "hoverOn": " 1",
+                        "hoverSpeed": " 1f",
+                        "maxXScaleDecrease": " 0.0f",
+                        "maxXScaleIncrease": " 1.0f",
+                        "maxYScaleDecrease": " 0.0f",
+                        "maxYScaleIncrease": " 1.0f",
+                        "maxZScaleDecrease": " 0.0f",
+                        "maxZScaleIncrease": " 1.0f",
+                        "xRotOn": " 0",
+                        "xRotSpeed": " .05f",
+                        "xScaleOn": " 0",
+                        "xScaleSpeed": " .005f",
+                        "yRotOn": "1",
+                        "yRotSpeed": " 1f",
+                        "yScaleOn": " 0",
+                        "yScaleSpeed": " .005f",
+                        "zRotOn": " 0",
+                        "zRotSpeed": " .05f",
+                        "zScaleOn": " 0",
+                        "zScaleSpeed": " .005f"
+                      },
+                      "script": 14767923327471905378
+                    },
+                    "id": 0,
+                    "name": "Code",
+                    "uuid": 13577550003036170892
+                  }
+                ],
+                "enabled": true,
+                "name": "Deviledeggs",
+                "pos": [
+                  -6127.6005859375,
+                  40.80621337890625,
+                  -169.4510040283203
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.10316585749387741,
+                  0.2656920254230499,
+                  -0.028609221801161766,
+                  0.9580950140953064
+                ],
+                "scale": [
+                  6.351319789886475,
+                  6.351320266723633,
+                  6.351321220397949
+                ],
+                "selectable": true,
+                "uuid": 1773496651,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 6669214894642994677
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 8563304653253139547
+                  }
+                ],
+                "enabled": true,
+                "name": "Painting 1",
+                "pos": [
+                  -5440.0,
+                  -100.0,
+                  -500.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  6.181724643283815e-08,
+                  -0.7071068286895752,
+                  6.18172535382655e-08,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  9.99993896484375,
+                  10.0,
+                  9.999646186828613
+                ],
+                "selectable": true,
+                "uuid": 1791480061,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 8570336624157956752
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 8563304653253139547
+                  }
+                ],
+                "enabled": true,
+                "name": "Painting 1",
+                "pos": [
+                  -5520.0,
+                  130.0,
+                  410.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  6.181724643283815e-08,
+                  -0.7071068286895752,
+                  6.18172535382655e-08,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  10.0,
+                  10.0,
+                  9.999435424804688
+                ],
+                "selectable": true,
+                "uuid": 3590706619,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 2155949713772851560
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 8563304653253139547
+                  }
+                ],
+                "enabled": true,
+                "name": "Painting 1",
+                "pos": [
+                  -6500.0,
+                  99.76483154296875,
+                  -230.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  6.181774381275318e-08,
+                  0.7071068286895752,
+                  -6.181775091818054e-08,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  9.999978065490723,
+                  10.0,
+                  9.99924087524414
+                ],
+                "selectable": true,
+                "uuid": 1339482810,
+                "uuidPrefab": 0
+              }
+            ],
             "components": [
               {
                 "data": {
@@ -1713,9 +2111,9 @@
                 "enabled": true,
                 "name": "Toy",
                 "pos": [
-                  1171.8681640625,
+                  796.19775390625,
                   4.6806640625,
-                  1371.8427734375
+                  1415.720458984375
                 ],
                 "propOverrides": {},
                 "proportionalScale": false,
@@ -1723,12 +2121,12 @@
                   1.0,
                   0.0,
                   0.0,
-                  -4.371140960302e-08
+                  -4.371142381387472e-08
                 ],
                 "scale": [
-                  0.7100000381469727,
-                  0.7100000381469727,
-                  0.7100000381469727
+                  0.6035000681877136,
+                  0.5047745108604431,
+                  0.6035000681877136
                 ],
                 "selectable": true,
                 "uuid": 296017822,
@@ -1780,22 +2178,22 @@
                 "enabled": true,
                 "name": "Toy",
                 "pos": [
-                  600.0,
+                  582.3071899414063,
                   30.0,
-                  735.48974609375
+                  1165.1641845703125
                 ],
                 "propOverrides": {},
                 "proportionalScale": false,
                 "rot": [
-                  0.0,
-                  -0.3552439510822296,
-                  0.0,
-                  0.9347736239433289
+                  -0.1842717081308365,
+                  -0.7911848425865173,
+                  0.24117566645145416,
+                  0.5309470891952515
                 ],
                 "scale": [
-                  0.9999999403953552,
-                  1.0,
-                  0.9999999403953552
+                  1.0000035762786865,
+                  0.9999998211860657,
+                  1.0000022649765015
                 ],
                 "selectable": true,
                 "uuid": 669645786,
@@ -1847,9 +2245,9 @@
                 "enabled": true,
                 "name": "Toy",
                 "pos": [
-                  1866.5986328125,
-                  30.0,
-                  505.1624755859375
+                  905.1442260742188,
+                  28.4931640625,
+                  1355.7994384765625
                 ],
                 "propOverrides": {},
                 "proportionalScale": false,
@@ -1860,9 +2258,9 @@
                   1.0
                 ],
                 "scale": [
-                  1.0,
-                  1.0,
-                  1.0
+                  0.8100000023841858,
+                  0.8100000023841858,
+                  0.8100000023841858
                 ],
                 "selectable": true,
                 "uuid": 3576096664,
@@ -1909,39 +2307,27 @@
                     "id": 1,
                     "name": "Model (Static)",
                     "uuid": 17192948543651004981
-                  },
-                  {
-                    "data": {
-                      "objectUUID": 0,
-                      "type": 3,
-                      "usePos": false,
-                      "useRot": false,
-                      "useScale": false
-                    },
-                    "id": 7,
-                    "name": "Constraint",
-                    "uuid": 6022968216338681172
                   }
                 ],
                 "enabled": true,
                 "name": "Dog",
                 "pos": [
-                  1190.0,
-                  -0.8747138977050781,
-                  1050.0
+                  766.512451171875,
+                  -106.89340209960938,
+                  1023.1517944335938
                 ],
                 "propOverrides": {},
                 "proportionalScale": false,
                 "rot": [
-                  0.0,
-                  0.0,
-                  0.0,
-                  1.0
+                  -0.15350225567817688,
+                  -0.2373553067445755,
+                  -0.022071419283747673,
+                  0.9589642286300659
                 ],
                 "scale": [
-                  6.949999809265137,
-                  6.949999809265137,
-                  6.949999809265137
+                  24.79547691345215,
+                  24.79545783996582,
+                  24.79547691345215
                 ],
                 "selectable": true,
                 "uuid": 3764179629,
@@ -1991,22 +2377,10 @@
                   },
                   {
                     "data": {
-                      "objectUUID": 0,
-                      "type": 3,
-                      "usePos": false,
-                      "useRot": false,
-                      "useScale": false
-                    },
-                    "id": 7,
-                    "name": "Constraint",
-                    "uuid": 6022968216338681172
-                  },
-                  {
-                    "data": {
                       "args": {
-                        "heightOffset": " 5.0f",
+                        "heightOffset": " 6.0f",
                         "hoverOn": " 1",
-                        "hoverSpeed": " .5f",
+                        "hoverSpeed": " 1f",
                         "maxXScaleDecrease": " 0.0f",
                         "maxXScaleIncrease": " 1.0f",
                         "maxYScaleDecrease": " 0.0f",
@@ -2036,22 +2410,22 @@
                 "enabled": true,
                 "name": "Dog",
                 "pos": [
-                  1210.0,
-                  81.54002380371094,
+                  810.0,
+                  220.0,
                   1090.0
                 ],
                 "propOverrides": {},
                 "proportionalScale": false,
                 "rot": [
-                  0.0,
-                  0.0,
-                  0.0,
-                  1.0
+                  -0.15350225567817688,
+                  -0.237355038523674,
+                  -0.02207142673432827,
+                  0.9589642882347107
                 ],
                 "scale": [
-                  4.454999923706055,
-                  4.454999923706055,
-                  4.454999923706055
+                  15.894076347351074,
+                  15.894089698791504,
+                  15.894073486328125
                 ],
                 "selectable": true,
                 "uuid": 3707398613,
@@ -3392,7 +3766,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       256.44158935546875,
@@ -3443,7 +3817,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -979.0225219726563,
@@ -3494,7 +3868,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -814.8062744140625,
@@ -3545,7 +3919,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       255.2350616455078,
@@ -3596,7 +3970,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -640.32275390625,
@@ -3647,7 +4021,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -284.0007019042969,
@@ -3698,7 +4072,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -759.5104370117188,
@@ -3749,7 +4123,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -386.1241455078125,
@@ -3800,7 +4174,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -62.36339569091797,
@@ -3851,7 +4225,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       188.25726318359375,
@@ -3902,7 +4276,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       127.8850326538086,
@@ -3953,7 +4327,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -1153.064208984375,
@@ -4004,7 +4378,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -1065.058349609375,
@@ -4055,7 +4429,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       289.7901306152344,
@@ -4106,12 +4480,12 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
-                      -730.3047485351563,
-                      277.3316650390625,
-                      2436.929443359375
+                      -730.0,
+                      280.0,
+                      2440.0
                     ],
                     "propOverrides": {},
                     "proportionalScale": false,
@@ -4157,7 +4531,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       289.7901306152344,
@@ -4208,7 +4582,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -1408.54541015625,
@@ -4259,7 +4633,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -1919.173583984375,
@@ -4310,7 +4684,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -1498.73046875,
@@ -4361,7 +4735,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -1583.9791259765625,
@@ -4412,7 +4786,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -1743.42333984375,
@@ -4463,7 +4837,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -1830.4217529296875,
@@ -4514,7 +4888,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -1830.4217529296875,
@@ -4565,7 +4939,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -1498.73046875,
@@ -4616,7 +4990,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -1583.9791259765625,
@@ -4667,7 +5041,7 @@
                         "uuid": 13398854967431402581
                       }
                     ],
-                    "enabled": true,
+                    "enabled": false,
                     "name": "Collider",
                     "pos": [
                       -1743.42333984375,
@@ -4693,7 +5067,7 @@
                   }
                 ],
                 "components": [],
-                "enabled": true,
+                "enabled": false,
                 "name": "Hallway 1 Colliders",
                 "pos": [
                   0.0,
@@ -5978,7 +6352,7 @@
           }
         ],
         "components": [],
-        "enabled": false,
+        "enabled": true,
         "name": "Hallways",
         "pos": [
           0.0,
