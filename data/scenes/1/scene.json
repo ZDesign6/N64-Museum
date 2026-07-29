@@ -345,9 +345,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          -5844.4638671875,
+          -2249.075439453125,
           100.0,
-          -633.263916015625
+          565.9338989257813
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -1980,7 +1980,204 @@
             "uuidPrefab": 0
           },
           {
-            "children": [],
+            "children": [
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 1,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 5132108158644712156
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17192948543651004981
+                  },
+                  {
+                    "data": {
+                      "args": {
+                        "heightOffset": " 5.0f",
+                        "hoverOn": " 0",
+                        "hoverSpeed": " .5f",
+                        "maxXScaleDecrease": " 0.0f",
+                        "maxXScaleIncrease": " 1.0f",
+                        "maxYScaleDecrease": " 0.0f",
+                        "maxYScaleIncrease": " 1.0f",
+                        "maxZScaleDecrease": " 0.0f",
+                        "maxZScaleIncrease": " 1.0f",
+                        "xRotOn": " 0",
+                        "xRotSpeed": " .05f",
+                        "xScaleOn": " 0",
+                        "xScaleSpeed": " .005f",
+                        "yRotOn": " 1",
+                        "yRotSpeed": " 1f",
+                        "yScaleOn": " 0",
+                        "yScaleSpeed": " .005f",
+                        "zRotOn": " 0",
+                        "zRotSpeed": " .05f",
+                        "zScaleOn": " 0",
+                        "zScaleSpeed": " .005f"
+                      },
+                      "script": 14767923327471905378
+                    },
+                    "id": 0,
+                    "name": "Code",
+                    "uuid": 18339616126864488072
+                  }
+                ],
+                "enabled": true,
+                "name": "Wedding1",
+                "pos": [
+                  -1810.0,
+                  -30.0,
+                  730.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  10.0,
+                  10.0,
+                  10.0
+                ],
+                "selectable": true,
+                "uuid": 1680146957,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 1,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 15877915498121515242
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17192948543651004981
+                  },
+                  {
+                    "data": {
+                      "args": {
+                        "heightOffset": " 5.0f",
+                        "hoverOn": " 0",
+                        "hoverSpeed": " .5f",
+                        "maxXScaleDecrease": " 0.0f",
+                        "maxXScaleIncrease": " 1.0f",
+                        "maxYScaleDecrease": " 0.0f",
+                        "maxYScaleIncrease": " 1.0f",
+                        "maxZScaleDecrease": " 0.0f",
+                        "maxZScaleIncrease": " 1.0f",
+                        "xRotOn": " 0",
+                        "xRotSpeed": " .05f",
+                        "xScaleOn": " 0",
+                        "xScaleSpeed": " .005f",
+                        "yRotOn": " 1",
+                        "yRotSpeed": " 1f",
+                        "yScaleOn": " 0",
+                        "yScaleSpeed": " .005f",
+                        "zRotOn": " 0",
+                        "zRotSpeed": " .05f",
+                        "zScaleOn": " 0",
+                        "zScaleSpeed": " .005f"
+                      },
+                      "script": 14767923327471905378
+                    },
+                    "id": 0,
+                    "name": "Code",
+                    "uuid": 15132557635992159365
+                  }
+                ],
+                "enabled": true,
+                "name": "Wedding2",
+                "pos": [
+                  -1810.0,
+                  125.21397399902344,
+                  730.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  10.0,
+                  10.0,
+                  10.0
+                ],
+                "selectable": true,
+                "uuid": 3778062878,
+                "uuidPrefab": 0
+              }
+            ],
             "components": [
               {
                 "data": {
