@@ -463,7 +463,7 @@
             "uuid": 2521218605754904152
           }
         ],
-        "enabled": true,
+        "enabled": false,
         "name": "Billboard Box",
         "pos": [
           -262.5697937011719,
@@ -605,7 +605,7 @@
             "uuid": 545146735363031128
           }
         ],
-        "enabled": true,
+        "enabled": false,
         "name": "Animate Box",
         "pos": [
           1545.507080078125,
@@ -1652,7 +1652,142 @@
             "uuidPrefab": 0
           },
           {
-            "children": [],
+            "children": [
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 12489552082169454103
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 2423464707067018049
+                  }
+                ],
+                "enabled": true,
+                "name": "Projector and Chair",
+                "pos": [
+                  -5889.24072265625,
+                  0.0,
+                  -6806.77880859375
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  4.0,
+                  4.0,
+                  4.0
+                ],
+                "selectable": true,
+                "uuid": 3157335627,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 4617580003703276213
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 8739752162791798434
+                  }
+                ],
+                "enabled": true,
+                "name": "Screen",
+                "pos": [
+                  -5547.82275390625,
+                  -80.76023864746094,
+                  -5952.94970703125
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  20.0,
+                  20.0,
+                  20.0
+                ],
+                "selectable": true,
+                "uuid": 2997043450,
+                "uuidPrefab": 0
+              }
+            ],
             "components": [
               {
                 "data": {
