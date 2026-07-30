@@ -4967,7 +4967,75 @@
             "uuidPrefab": 0
           },
           {
-            "children": [],
+            "children": [
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 1507619523177736604
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 14420688435986884728
+                  }
+                ],
+                "enabled": true,
+                "name": "bed",
+                "pos": [
+                  -768.7469482421875,
+                  0.0,
+                  8937.6845703125
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  2.0,
+                  2.0,
+                  2.0
+                ],
+                "selectable": true,
+                "uuid": 1029418020,
+                "uuidPrefab": 0
+              }
+            ],
             "components": [
               {
                 "data": {
