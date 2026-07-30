@@ -3379,7 +3379,7 @@
                     "uuid": 10901201355069777850
                   }
                 ],
-                "enabled": true,
+                "enabled": false,
                 "name": "Collider1",
                 "pos": [
                   -1850.0,
@@ -3401,6 +3401,73 @@
                 ],
                 "selectable": true,
                 "uuid": 2034958570,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 1,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 6667508258262216949
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 6544390284806491228
+                  }
+                ],
+                "enabled": true,
+                "name": "Fog",
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": true,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  8.0,
+                  8.0,
+                  8.0
+                ],
+                "selectable": true,
+                "uuid": 192925075,
                 "uuidPrefab": 0
               }
             ],
@@ -3902,6 +3969,586 @@
             ],
             "selectable": true,
             "uuid": 4027601242,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 1,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 3946986223440494736
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 2420026839173875614
+                  },
+                  {
+                    "data": {
+                      "args": {
+                        "heightOffset": " 5.0f",
+                        "hoverOn": " 0",
+                        "hoverSpeed": " .5f",
+                        "maxXScaleDecrease": " 0.0f",
+                        "maxXScaleIncrease": " 1.0f",
+                        "maxYScaleDecrease": " 0.0f",
+                        "maxYScaleIncrease": " 1.0f",
+                        "maxZScaleDecrease": " 0.0f",
+                        "maxZScaleIncrease": " 1.0f",
+                        "xRotOn": " 0",
+                        "xRotSpeed": " .05f",
+                        "xScaleOn": " 0",
+                        "xScaleSpeed": " .005f",
+                        "yRotOn": "1",
+                        "yRotSpeed": " .1f",
+                        "yScaleOn": " 0",
+                        "yScaleSpeed": " .005f",
+                        "zRotOn": " 0",
+                        "zRotSpeed": " .05f",
+                        "zScaleOn": " 0",
+                        "zScaleSpeed": " .005f"
+                      },
+                      "script": 14767923327471905378
+                    },
+                    "id": 0,
+                    "name": "Code",
+                    "uuid": 11223311801457686123
+                  }
+                ],
+                "enabled": true,
+                "name": "Logo",
+                "pos": [
+                  -1700.0,
+                  180.0,
+                  3710.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": true,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  3.0,
+                  3.0,
+                  3.0
+                ],
+                "selectable": true,
+                "uuid": 126067556,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 6349304935591219503
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 2793621052420603918
+                  }
+                ],
+                "enabled": true,
+                "name": "Bench",
+                "pos": [
+                  -1296.67431640625,
+                  20.98199462890625,
+                  4498.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": true,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  8.0,
+                  8.0,
+                  8.0
+                ],
+                "selectable": true,
+                "uuid": 3061095467,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 5117419194299675567
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 7386766979714285873
+                  }
+                ],
+                "enabled": true,
+                "name": "Toeni",
+                "pos": [
+                  -2785.50439453125,
+                  30.0,
+                  4430.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": true,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "selectable": true,
+                "uuid": 3547587015,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 6776021706984675748
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 10111854747907531733
+                  },
+                  {
+                    "data": {
+                      "objectUUID": 0,
+                      "type": 3,
+                      "usePos": false,
+                      "useRot": false,
+                      "useScale": false
+                    },
+                    "id": 7,
+                    "name": "Constraint",
+                    "uuid": 13630099963993716458
+                  }
+                ],
+                "enabled": true,
+                "name": "Toeni2",
+                "pos": [
+                  -579.7205810546875,
+                  36.38605499267578,
+                  4392.2919921875
+                ],
+                "propOverrides": {},
+                "proportionalScale": true,
+                "rot": [
+                  0.0,
+                  0.2457709014415741,
+                  0.0,
+                  0.9693279266357422
+                ],
+                "scale": [
+                  0.49999985098838806,
+                  0.5,
+                  0.49999985098838806
+                ],
+                "selectable": true,
+                "uuid": 3614091905,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 10294130874973683196
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 18211739932527164995
+                  }
+                ],
+                "enabled": true,
+                "name": "Toeni3",
+                "pos": [
+                  -1262.072509765625,
+                  52.88437271118164,
+                  4471.97021484375
+                ],
+                "propOverrides": {},
+                "proportionalScale": true,
+                "rot": [
+                  0.0,
+                  0.9991507530212402,
+                  0.0,
+                  0.04120412468910217
+                ],
+                "scale": [
+                  0.4999955892562866,
+                  0.5,
+                  0.4999955892562866
+                ],
+                "selectable": true,
+                "uuid": 4260856017,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 18063096550136131313
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 3549405451372709256
+                  }
+                ],
+                "enabled": true,
+                "name": "Toeni4",
+                "pos": [
+                  -1260.0,
+                  37.32628631591797,
+                  3730.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": true,
+                "rot": [
+                  0.0,
+                  -0.694129467010498,
+                  0.0,
+                  0.7198501825332642
+                ],
+                "scale": [
+                  0.4999997317790985,
+                  0.5,
+                  0.4999997019767761
+                ],
+                "selectable": true,
+                "uuid": 3097064918,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 3142141403039867379
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 6750445063087281508
+                  }
+                ],
+                "enabled": true,
+                "name": "Toeni5",
+                "pos": [
+                  -997.5720825195313,
+                  40.0,
+                  4745.205078125
+                ],
+                "propOverrides": {},
+                "proportionalScale": true,
+                "rot": [
+                  0.0,
+                  0.34986886382102966,
+                  0.0,
+                  0.9367986917495728
+                ],
+                "scale": [
+                  0.4999997913837433,
+                  0.5,
+                  0.4999997913837433
+                ],
+                "selectable": true,
+                "uuid": 3076999214,
+                "uuidPrefab": 0
+              }
+            ],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 9869279244351502905
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 6770145484857702809
+              }
+            ],
+            "enabled": true,
+            "name": "Atrium",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              8.0,
+              8.0,
+              8.0
+            ],
+            "selectable": true,
+            "uuid": 3929985128,
             "uuidPrefab": 0
           }
         ],
@@ -6638,6 +7285,73 @@
         ],
         "selectable": false,
         "uuid": 1259984788,
+        "uuidPrefab": 0
+      },
+      {
+        "children": [],
+        "components": [
+          {
+            "data": {
+              "culling": false,
+              "layerIdx": 1,
+              "material": {
+                "depth": 0,
+                "env": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "fresnel": 0,
+                "fresnelColor": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "lighting": false,
+                "prim": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "setDepth": false,
+                "setEnv": false,
+                "setFresnel": false,
+                "setLighting": false,
+                "setPrim": false
+              },
+              "meshFilter": "",
+              "model": 11289736018104684513
+            },
+            "id": 1,
+            "name": "Model (Static)",
+            "uuid": 5104525754294272187
+          }
+        ],
+        "enabled": false,
+        "name": "DoorFogs",
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "propOverrides": {},
+        "proportionalScale": true,
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          8.0,
+          8.0,
+          8.0
+        ],
+        "selectable": true,
+        "uuid": 2736130278,
         "uuidPrefab": 0
       }
     ],
