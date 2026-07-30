@@ -3657,7 +3657,410 @@
             "uuidPrefab": 0
           },
           {
-            "children": [],
+            "children": [
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 5453033456193267612
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 15162172225007472476
+                  }
+                ],
+                "enabled": true,
+                "name": "Painting 1",
+                "pos": [
+                  2819.386962890625,
+                  219.36459350585938,
+                  2755.0947265625
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  7.999929904937744,
+                  8.0,
+                  7.999929904937744
+                ],
+                "selectable": true,
+                "uuid": 3393922661,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 6463706304420937098
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 15162172225007472476
+                  }
+                ],
+                "enabled": true,
+                "name": "Painting 2",
+                "pos": [
+                  4349.9541015625,
+                  219.36459350585938,
+                  2755.0947265625
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  -0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  7.999850749969482,
+                  8.0,
+                  7.999850749969482
+                ],
+                "selectable": true,
+                "uuid": 3271538796,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 12821682543243393299
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 15162172225007472476
+                  }
+                ],
+                "enabled": true,
+                "name": "Painting 3",
+                "pos": [
+                  3593.053955078125,
+                  350.7306213378906,
+                  3582.93359375
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  -4.371138828673793e-08,
+                  1.0,
+                  -4.371138828673793e-08,
+                  1.910685465164705e-15
+                ],
+                "scale": [
+                  7.999914169311523,
+                  8.0,
+                  7.999914169311523
+                ],
+                "selectable": true,
+                "uuid": 3768557071,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 5371410267534668638
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 15162172225007472476
+                  }
+                ],
+                "enabled": true,
+                "name": "Stairs",
+                "pos": [
+                  3590.0,
+                  -3.9743423461914063,
+                  3313.570068359375
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  2.9998960494995117,
+                  3.0,
+                  2.9998960494995117
+                ],
+                "selectable": true,
+                "uuid": 45524080,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 6533989254156539748
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 15162172225007472476
+                  }
+                ],
+                "enabled": true,
+                "name": "Arrow 1",
+                "pos": [
+                  3367.822265625,
+                  299.37261962890625,
+                  3309.94775390625
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  -0.285312682390213,
+                  0.8414109349250793,
+                  0.1209186390042305,
+                  0.44272229075431824
+                ],
+                "scale": [
+                  7.999927520751953,
+                  7.99998664855957,
+                  15.999857902526855
+                ],
+                "selectable": true,
+                "uuid": 3360911095,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 6533989254156539748
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 15162172225007472476
+                  }
+                ],
+                "enabled": true,
+                "name": "Arrow 2",
+                "pos": [
+                  3774.5576171875,
+                  151.91519165039063,
+                  3183.2646484375
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.38172173500061035,
+                  0.23042213916778564,
+                  -0.5469586253166199,
+                  0.7085410356521606
+                ],
+                "scale": [
+                  7.000004291534424,
+                  6.999997138977051,
+                  14.000009536743164
+                ],
+                "selectable": true,
+                "uuid": 2529022740,
+                "uuidPrefab": 0
+              }
+            ],
             "components": [
               {
                 "data": {
@@ -7804,7 +8207,7 @@
             "uuid": 14822298618865024469
           }
         ],
-        "enabled": true,
+        "enabled": false,
         "name": "Pos Object",
         "pos": [
           -1000.0,
