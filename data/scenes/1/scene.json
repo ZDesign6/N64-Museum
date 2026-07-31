@@ -2572,7 +2572,75 @@
             "uuidPrefab": 0
           },
           {
-            "children": [],
+            "children": [
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 1,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 8776219658009582083
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 3381957093101345856
+                  }
+                ],
+                "enabled": false,
+                "name": "FakeFogs",
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": true,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  8.0,
+                  8.0,
+                  8.0
+                ],
+                "selectable": true,
+                "uuid": 1542526800,
+                "uuidPrefab": 0
+              }
+            ],
             "components": [
               {
                 "data": {
@@ -8470,7 +8538,7 @@
                 "setPrim": false
               },
               "meshFilter": "",
-              "model": 11289736018104684513
+              "model": 5942183753751703288
             },
             "id": 1,
             "name": "Model (Static)",
@@ -8493,9 +8561,9 @@
           1.0
         ],
         "scale": [
-          8.0,
-          8.0,
-          8.0
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
         ],
         "selectable": true,
         "uuid": 2736130278,
