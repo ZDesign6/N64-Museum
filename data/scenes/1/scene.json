@@ -8477,7 +8477,7 @@
             "uuid": 5104525754294272187
           }
         ],
-        "enabled": false,
+        "enabled": true,
         "name": "DoorFogs",
         "pos": [
           0.0,
