@@ -345,9 +345,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          1412.4949951171875,
-          100.0,
-          5015.240234375
+          -5940.0,
+          117.68576049804688,
+          4345.27197265625
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -632,7 +632,166 @@
       {
         "children": [
           {
-            "children": [],
+            "children": [
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 1,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 11801090647413749309
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17192948543651004981
+                  },
+                  {
+                    "data": {
+                      "objectUUID": 0,
+                      "type": 3,
+                      "usePos": false,
+                      "useRot": false,
+                      "useScale": false
+                    },
+                    "id": 7,
+                    "name": "Constraint",
+                    "uuid": 4315056903152410494
+                  }
+                ],
+                "enabled": true,
+                "name": "GusterBottom",
+                "pos": [
+                  -5490.0,
+                  -30.0,
+                  3680.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  10.0,
+                  10.0,
+                  10.0
+                ],
+                "selectable": true,
+                "uuid": 2872321378,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 1,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 4834410972102275632
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17192948543651004981
+                  },
+                  {
+                    "data": {
+                      "objectUUID": 0,
+                      "type": 3,
+                      "usePos": false,
+                      "useRot": false,
+                      "useScale": false
+                    },
+                    "id": 7,
+                    "name": "Constraint",
+                    "uuid": 1367086485710527940
+                  }
+                ],
+                "enabled": true,
+                "name": "GusterBottom",
+                "pos": [
+                  -5490.0,
+                  120.0,
+                  3680.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  10.0,
+                  10.0,
+                  10.0
+                ],
+                "selectable": true,
+                "uuid": 3962051512,
+                "uuidPrefab": 0
+              }
+            ],
             "components": [
               {
                 "data": {
@@ -3119,9 +3278,9 @@
                 "enabled": true,
                 "name": "Dog",
                 "pos": [
-                  766.512451171875,
-                  -106.89340209960938,
-                  1023.1517944335938
+                  770.0,
+                  -110.0,
+                  1020.0
                 ],
                 "propOverrides": {},
                 "proportionalScale": false,
