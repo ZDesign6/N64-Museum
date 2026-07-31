@@ -345,9 +345,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          -2249.075439453125,
+          1412.4949951171875,
           100.0,
-          565.9338989257813
+          5015.240234375
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -3042,73 +3042,6 @@
                         "setPrim": false
                       },
                       "meshFilter": "",
-                      "model": 1362798636853053795
-                    },
-                    "id": 1,
-                    "name": "Model (Static)",
-                    "uuid": 17192948543651004981
-                  }
-                ],
-                "enabled": true,
-                "name": "Toy",
-                "pos": [
-                  796.19775390625,
-                  4.6806640625,
-                  1415.720458984375
-                ],
-                "propOverrides": {},
-                "proportionalScale": false,
-                "rot": [
-                  1.0,
-                  0.0,
-                  0.0,
-                  -4.371142381387472e-08
-                ],
-                "scale": [
-                  0.6035000681877136,
-                  0.5047745108604431,
-                  0.6035000681877136
-                ],
-                "selectable": true,
-                "uuid": 296017822,
-                "uuidPrefab": 0
-              },
-              {
-                "children": [],
-                "components": [
-                  {
-                    "data": {
-                      "culling": false,
-                      "layerIdx": 0,
-                      "material": {
-                        "depth": 0,
-                        "env": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "fresnel": 0,
-                        "fresnelColor": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "lighting": false,
-                        "prim": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "setDepth": false,
-                        "setEnv": false,
-                        "setFresnel": false,
-                        "setLighting": false,
-                        "setPrim": false
-                      },
-                      "meshFilter": "",
                       "model": 15469734180765543071
                     },
                     "id": 1,
@@ -3138,73 +3071,6 @@
                 ],
                 "selectable": true,
                 "uuid": 669645786,
-                "uuidPrefab": 0
-              },
-              {
-                "children": [],
-                "components": [
-                  {
-                    "data": {
-                      "culling": false,
-                      "layerIdx": 0,
-                      "material": {
-                        "depth": 0,
-                        "env": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "fresnel": 0,
-                        "fresnelColor": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "lighting": false,
-                        "prim": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "setDepth": false,
-                        "setEnv": false,
-                        "setFresnel": false,
-                        "setLighting": false,
-                        "setPrim": false
-                      },
-                      "meshFilter": "",
-                      "model": 13128757144622024104
-                    },
-                    "id": 1,
-                    "name": "Model (Static)",
-                    "uuid": 17192948543651004981
-                  }
-                ],
-                "enabled": true,
-                "name": "Toy",
-                "pos": [
-                  905.1442260742188,
-                  28.4931640625,
-                  1355.7994384765625
-                ],
-                "propOverrides": {},
-                "proportionalScale": false,
-                "rot": [
-                  0.0,
-                  0.0,
-                  0.0,
-                  1.0
-                ],
-                "scale": [
-                  0.8100000023841858,
-                  0.8100000023841858,
-                  0.8100000023841858
-                ],
-                "selectable": true,
-                "uuid": 3576096664,
                 "uuidPrefab": 0
               },
               {
@@ -3692,7 +3558,611 @@
             "uuidPrefab": 0
           },
           {
-            "children": [],
+            "children": [
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 9284210156934301310
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 14322726832682112498
+                  }
+                ],
+                "enabled": true,
+                "name": "Scream Painting",
+                "pos": [
+                  450.0,
+                  100.0,
+                  6660.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.999932765960693,
+                  5.0,
+                  4.999932765960693
+                ],
+                "selectable": true,
+                "uuid": 1222733285,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 3795850173115002248
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 14322726832682112498
+                  }
+                ],
+                "enabled": false,
+                "name": "Cage",
+                "pos": [
+                  1150.0,
+                  0.0,
+                  5560.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  3.200000047683716,
+                  3.200000047683716,
+                  3.200000047683716
+                ],
+                "selectable": true,
+                "uuid": 3107850846,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 13561791418787643997
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 14322726832682112498
+                  }
+                ],
+                "enabled": true,
+                "name": "WaterCooler Painting",
+                "pos": [
+                  1225.010986328125,
+                  20.0,
+                  6850.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  1.2580235875248036e-07,
+                  1.0,
+                  -1.6167527405741566e-07,
+                  -4.3711374075883214e-08
+                ],
+                "scale": [
+                  5.7945404052734375,
+                  5.794619560241699,
+                  5.7945404052734375
+                ],
+                "selectable": true,
+                "uuid": 3936843245,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 13561791418787643997
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 14322726832682112498
+                  }
+                ],
+                "enabled": true,
+                "name": "WaterCooler Painting",
+                "pos": [
+                  839.6395263671875,
+                  20.0,
+                  6850.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  1.2580235875248036e-07,
+                  1.0,
+                  -1.6167527405741566e-07,
+                  -4.3711374075883214e-08
+                ],
+                "scale": [
+                  5.7945404052734375,
+                  5.794619560241699,
+                  5.7945404052734375
+                ],
+                "selectable": true,
+                "uuid": 1256945082,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 13561791418787643997
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 14322726832682112498
+                  }
+                ],
+                "enabled": true,
+                "name": "WaterCooler Painting",
+                "pos": [
+                  1439.529052734375,
+                  20.0,
+                  6850.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  1.2580235875248036e-07,
+                  1.0,
+                  -1.6167527405741566e-07,
+                  -4.3711374075883214e-08
+                ],
+                "scale": [
+                  5.7945404052734375,
+                  5.794619560241699,
+                  5.7945404052734375
+                ],
+                "selectable": true,
+                "uuid": 124688324,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 17007976143601697291
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 14322726832682112498
+                  }
+                ],
+                "enabled": true,
+                "name": "Green Painting",
+                "pos": [
+                  450.0,
+                  100.0,
+                  5368.54931640625
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.999650001525879,
+                  5.0,
+                  4.999650001525879
+                ],
+                "selectable": true,
+                "uuid": 3351408974,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 17007976143601697291
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 14322726832682112498
+                  }
+                ],
+                "enabled": true,
+                "name": "Green Painting",
+                "pos": [
+                  450.0,
+                  202.5,
+                  5310.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  -0.059226155281066895,
+                  0.7068008184432983,
+                  -0.06092889606952667,
+                  0.7022908926010132
+                ],
+                "scale": [
+                  4.999547958374023,
+                  5.0,
+                  4.999546051025391
+                ],
+                "selectable": true,
+                "uuid": 2942916133,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 16804197270309304636
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 14322726832682112498
+                  }
+                ],
+                "enabled": true,
+                "name": "Employee of the Month Painting",
+                "pos": [
+                  1860.0,
+                  100.0,
+                  5757.6064453125
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  -0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.999810218811035,
+                  5.0,
+                  4.999810218811035
+                ],
+                "selectable": true,
+                "uuid": 2641980184,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 11910944603997297054
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 14322726832682112498
+                  }
+                ],
+                "enabled": true,
+                "name": "Employee of the Month Painting",
+                "pos": [
+                  1860.0,
+                  100.0,
+                  5636.49658203125
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  -0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.9997711181640625,
+                  5.0,
+                  4.9997711181640625
+                ],
+                "selectable": true,
+                "uuid": 2857694666,
+                "uuidPrefab": 0
+              }
+            ],
             "components": [
               {
                 "data": {
@@ -5764,6 +6234,90 @@
             ],
             "selectable": true,
             "uuid": 3929985128,
+            "uuidPrefab": 0
+          },
+          {
+            "children": [],
+            "components": [
+              {
+                "data": {
+                  "culling": false,
+                  "layerIdx": 0,
+                  "material": {
+                    "depth": 0,
+                    "env": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fresnel": 0,
+                    "fresnelColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "lighting": false,
+                    "prim": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "setDepth": false,
+                    "setEnv": false,
+                    "setFresnel": false,
+                    "setLighting": false,
+                    "setPrim": false
+                  },
+                  "meshFilter": "",
+                  "model": 7389169890754763391
+                },
+                "id": 1,
+                "name": "Model (Static)",
+                "uuid": 584939472932177031
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": "1500",
+                    "maxDifferenceY": "1500",
+                    "maxDifferenceZ": "1500",
+                    "objXPos": "-3050.000",
+                    "objYPos": " 0.0f",
+                    "objZPos": "8750.000",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 4853191223003088805
+              }
+            ],
+            "enabled": true,
+            "name": "Room 14",
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "propOverrides": {},
+            "proportionalScale": true,
+            "rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              8.0,
+              8.0,
+              8.0
+            ],
+            "selectable": true,
+            "uuid": 386106931,
             "uuidPrefab": 0
           }
         ],
@@ -8411,7 +8965,7 @@
           }
         ],
         "components": [],
-        "enabled": true,
+        "enabled": false,
         "name": "Hallways",
         "pos": [
           0.0,
@@ -8545,7 +9099,7 @@
             "uuid": 5104525754294272187
           }
         ],
-        "enabled": true,
+        "enabled": false,
         "name": "DoorFogs",
         "pos": [
           0.0,
