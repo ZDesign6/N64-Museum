@@ -345,9 +345,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          -5940.0,
-          117.68576049804688,
-          4345.27197265625
+          1103.396728515625,
+          347.0651550292969,
+          9631.28125
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -5531,7 +5531,891 @@
             "uuidPrefab": 0
           },
           {
-            "children": [],
+            "children": [
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 907751963416759252
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17645444847203970668
+                  }
+                ],
+                "enabled": true,
+                "name": "Hand Dryer Painting",
+                "pos": [
+                  570.0,
+                  80.0,
+                  10213.2919921875
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.999789714813232,
+                  5.0,
+                  4.999789714813232
+                ],
+                "selectable": true,
+                "uuid": 703102490,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 907751963416759252
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 6978793207530465951
+                  }
+                ],
+                "enabled": true,
+                "name": "Hand Dryer Painting",
+                "pos": [
+                  570.0,
+                  80.0,
+                  10390.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.99992561340332,
+                  5.0,
+                  4.99992561340332
+                ],
+                "selectable": true,
+                "uuid": 598071910,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 907751963416759252
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17645444847203970668
+                  }
+                ],
+                "enabled": true,
+                "name": "Hand Dryer Painting",
+                "pos": [
+                  570.0,
+                  80.0,
+                  10574.37109375
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.999780178070068,
+                  5.0,
+                  4.999780178070068
+                ],
+                "selectable": true,
+                "uuid": 1339906573,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 907751963416759252
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17645444847203970668
+                  }
+                ],
+                "enabled": true,
+                "name": "Hand Dryer Painting",
+                "pos": [
+                  570.0,
+                  80.0,
+                  10755.279296875
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.999790191650391,
+                  5.0,
+                  4.999790191650391
+                ],
+                "selectable": true,
+                "uuid": 2187646644,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 15484397443284359764
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17645444847203970668
+                  }
+                ],
+                "enabled": true,
+                "name": " Sink1 Painting",
+                "pos": [
+                  570.0,
+                  10.0,
+                  9700.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.999670028686523,
+                  5.0,
+                  4.999670028686523
+                ],
+                "selectable": true,
+                "uuid": 3822934260,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 15484397443284359764
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17645444847203970668
+                  }
+                ],
+                "enabled": true,
+                "name": " Sink1 Painting",
+                "pos": [
+                  570.0,
+                  10.0,
+                  9460.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.999573707580566,
+                  5.0,
+                  4.999573707580566
+                ],
+                "selectable": true,
+                "uuid": 2860318696,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 15484397443284359764
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17645444847203970668
+                  }
+                ],
+                "enabled": true,
+                "name": " Sink1 Painting",
+                "pos": [
+                  570.0,
+                  10.0,
+                  9200.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.7071068286895752,
+                  0.0,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.999505519866943,
+                  5.0,
+                  4.999505519866943
+                ],
+                "selectable": true,
+                "uuid": 2194673114,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 7999884837996352651
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17645444847203970668
+                  }
+                ],
+                "enabled": true,
+                "name": " Sink2 Painting",
+                "pos": [
+                  1250.0,
+                  10.0,
+                  10950.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  -4.371138828673793e-08,
+                  1.0,
+                  -4.371138828673793e-08,
+                  1.910685465164705e-15
+                ],
+                "scale": [
+                  4.999472141265869,
+                  5.0,
+                  4.9994730949401855
+                ],
+                "selectable": true,
+                "uuid": 3024960733,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 15996490495348206067
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17645444847203970668
+                  }
+                ],
+                "enabled": true,
+                "name": " Sink3 Painting",
+                "pos": [
+                  1990.0,
+                  10.0,
+                  10101.5966796875
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  2.9531300071994337e-08,
+                  -0.7071068286895752,
+                  2.9531298295637498e-08,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.999406337738037,
+                  5.0,
+                  4.99940824508667
+                ],
+                "selectable": true,
+                "uuid": 2458209733,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 15996490495348206067
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17645444847203970668
+                  }
+                ],
+                "enabled": true,
+                "name": " Sink3 Painting",
+                "pos": [
+                  1990.0,
+                  10.0,
+                  10600.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  2.9531300071994337e-08,
+                  -0.7071068286895752,
+                  2.9531298295637498e-08,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.999316215515137,
+                  5.0,
+                  4.9993181228637695
+                ],
+                "selectable": true,
+                "uuid": 728452823,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 15996490495348206067
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17645444847203970668
+                  }
+                ],
+                "enabled": true,
+                "name": " Sink3 Painting",
+                "pos": [
+                  1990.0,
+                  10.0,
+                  9570.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  2.9531300071994337e-08,
+                  -0.7071068286895752,
+                  2.9531298295637498e-08,
+                  0.7071067094802856
+                ],
+                "scale": [
+                  4.999218463897705,
+                  5.0,
+                  4.999220371246338
+                ],
+                "selectable": true,
+                "uuid": 597523580,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 907751963416759252
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 6978793207530465951
+                  }
+                ],
+                "enabled": true,
+                "name": "Hand Dryer Painting",
+                "pos": [
+                  1935.05810546875,
+                  10.019624710083008,
+                  9047.3564453125
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  -0.18482857942581177,
+                  0.058345846831798553,
+                  0.6748013496398926,
+                  0.7120935916900635
+                ],
+                "scale": [
+                  4.999859809875488,
+                  5.000001430511475,
+                  4.999874114990234
+                ],
+                "selectable": true,
+                "uuid": 856221651,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 9948896315193020241
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17645444847203970668
+                  },
+                  {
+                    "data": {
+                      "objectUUID": 0,
+                      "type": 3,
+                      "usePos": false,
+                      "useRot": false,
+                      "useScale": false
+                    },
+                    "id": 7,
+                    "name": "Constraint",
+                    "uuid": 11840136420003629760
+                  }
+                ],
+                "enabled": true,
+                "name": "Toilet",
+                "pos": [
+                  1267.6903076171875,
+                  0.0,
+                  9997.2021484375
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  4.175204892931106e-08,
+                  0.0,
+                  -7.920533673377861e-10,
+                  0.9999881982803345
+                ],
+                "scale": [
+                  0.9996030330657959,
+                  1.0,
+                  0.9996030330657959
+                ],
+                "selectable": true,
+                "uuid": 3023351655,
+                "uuidPrefab": 0
+              }
+            ],
             "components": [
               {
                 "data": {
