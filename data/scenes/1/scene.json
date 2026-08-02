@@ -790,6 +790,207 @@
                 "selectable": true,
                 "uuid": 3962051512,
                 "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 3653917005935665208
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 772844065820725268
+                  }
+                ],
+                "enabled": true,
+                "name": "HorsePainting",
+                "pos": [
+                  -5400.0,
+                  81.85655975341797,
+                  4670.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  -4.371138828673793e-08,
+                  1.0,
+                  -4.371138828673793e-08,
+                  1.910685465164705e-15
+                ],
+                "scale": [
+                  4.999999046325684,
+                  5.0,
+                  4.999999046325684
+                ],
+                "selectable": true,
+                "uuid": 2061282917,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 4939590909851653811
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 379326229616251924
+                  }
+                ],
+                "enabled": true,
+                "name": "Pioneer Painting",
+                "pos": [
+                  -6319.91015625,
+                  152.34893798828125,
+                  2750.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  5.0,
+                  5.0,
+                  5.0
+                ],
+                "selectable": true,
+                "uuid": 49711387,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 0,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 8545547453381019518
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 16551923834975294540
+                  }
+                ],
+                "enabled": true,
+                "name": "Saloon Shutter Painting",
+                "pos": [
+                  -5206.185546875,
+                  96.8755874633789,
+                  2750.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  5.0,
+                  5.0,
+                  5.0
+                ],
+                "selectable": true,
+                "uuid": 3846018123,
+                "uuidPrefab": 0
               }
             ],
             "components": [
@@ -4298,7 +4499,7 @@
                   }
                 ],
                 "enabled": true,
-                "name": "Employee of the Month Painting",
+                "name": "PC Painting",
                 "pos": [
                   1860.0,
                   100.0,
