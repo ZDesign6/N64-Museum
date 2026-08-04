@@ -345,9 +345,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          -4820.0,
-          118.25709533691406,
-          3899.501220703125
+          -3680.0,
+          210.0,
+          -2940.0
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -7454,6 +7454,23 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 6770145484857702809
+              },
+              {
+                "data": {
+                  "args": {
+                    "maxDifferenceX": " 2500.0f",
+                    "maxDifferenceY": " 2500.0f",
+                    "maxDifferenceZ": " 2500.0f",
+                    "objXPos": " 1670.0f",
+                    "objYPos": " 0.0f",
+                    "objZPos": " 3800.0f",
+                    "playerRef": "1006344143"
+                  },
+                  "script": 14138525084268296927
+                },
+                "id": 0,
+                "name": "Code",
+                "uuid": 11118527538501381784
               }
             ],
             "enabled": true,
