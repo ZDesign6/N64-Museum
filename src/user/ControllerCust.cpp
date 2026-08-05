@@ -129,7 +129,7 @@ namespace P64::Script::CD0A328E7EE01313
     data->lastVel += targetVelocity * data->moveSpeedFactor;
 
     // force respawn when falling down too much
-    if(obj.pos.y < -750.0f) body.teleport({0, 100, 0});
+    //if(obj.pos.y < -750.0f) body.teleport({0, 100, 0});
 
     const bool grounded = body.isOnFloor();
     const fm_vec3_t bodyUp = body.getSettings().up;
