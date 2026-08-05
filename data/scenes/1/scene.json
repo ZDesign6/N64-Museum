@@ -345,9 +345,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          -1708.16796875,
+          -5758.46630859375,
           105.68818664550781,
-          4251.14453125
+          -6814.32373046875
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -1780,7 +1780,7 @@
                 "pos": [
                   -5169.416015625,
                   -80.76023864746094,
-                  -5952.94970703125
+                  -5960.0
                 ],
                 "propOverrides": {},
                 "proportionalScale": false,
