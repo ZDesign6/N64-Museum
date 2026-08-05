@@ -109,7 +109,7 @@
           {
             "data": {
               "aspect": 0.0,
-              "far": 2000.0,
+              "far": 5000.0,
               "fov": 65.0,
               "mode": 0,
               "near": 50.0,
@@ -345,9 +345,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          -3680.0,
-          210.0,
-          -2940.0
+          6.19793701171875,
+          266.2040100097656,
+          -716.80126953125
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -996,7 +996,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -1032,40 +1032,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "1500",
-                    "maxDifferenceY": "1500",
-                    "maxDifferenceZ": "1500",
-                    "objXPos": " 0.0f",
-                    "objYPos": " 0.0f",
-                    "objZPos": " 0.0f",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 14671672472737175382
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "-5400.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "3800.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 747003485540797882
               }
             ],
             "enabled": true,
@@ -1495,7 +1461,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -1531,23 +1497,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "1500",
-                    "maxDifferenceY": "1500",
-                    "maxDifferenceZ": "1500",
-                    "objXPos": "-6000.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "-50.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 9373059525620800716
               }
             ],
             "enabled": true,
@@ -1579,7 +1528,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -1615,23 +1564,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "1500",
-                    "maxDifferenceY": "1500",
-                    "maxDifferenceZ": "1500",
-                    "objXPos": "-6400.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "-3300.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 9986579734597819126
               }
             ],
             "enabled": true,
@@ -1932,7 +1864,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -1968,23 +1900,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "1000",
-                    "maxDifferenceY": "1000",
-                    "maxDifferenceZ": "1000",
-                    "objXPos": "-6600.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "-5300.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 16553119542681972175
               }
             ],
             "enabled": true,
@@ -2151,7 +2066,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -2187,23 +2102,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "1000",
-                    "maxDifferenceY": "1000",
-                    "maxDifferenceZ": "1000",
-                    "objXPos": "-5900.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "-6750.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 40894932269223688
               }
             ],
             "enabled": true,
@@ -2468,7 +2366,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -2504,23 +2402,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
-                    "objXPos": "-4450.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "-5200.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 16020393247145425752
               }
             ],
             "enabled": true,
@@ -2821,7 +2702,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -2857,23 +2738,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "1500",
-                    "maxDifferenceY": "1500",
-                    "maxDifferenceZ": "1500",
-                    "objXPos": "-3750.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "-2650.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 5702934061258463665
               }
             ],
             "enabled": true,
@@ -2973,7 +2837,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -3009,23 +2873,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 1500.0f",
-                    "maxDifferenceY": " 1500.0f",
-                    "maxDifferenceZ": " 1500.0f",
-                    "objXPos": "-800.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "-3600.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 2242778153187908368
               }
             ],
             "enabled": true,
@@ -3254,7 +3101,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -3290,23 +3137,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
-                    "objXPos": "-1650.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "800.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 15648651804023646899
               }
             ],
             "enabled": true,
@@ -3571,7 +3401,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -3607,23 +3437,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "1500",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": "1500",
-                    "objXPos": "1400.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "950.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 12311396173198328618
               }
             ],
             "enabled": true,
@@ -3655,7 +3468,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -3691,23 +3504,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
-                    "objXPos": "-4500.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "6300.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 13565678053750839815
               }
             ],
             "enabled": true,
@@ -3807,7 +3603,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -3843,23 +3639,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
-                    "objXPos": "-650",
-                    "objYPos": " 0.0f",
-                    "objZPos": "5500.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 7097543982534113991
               }
             ],
             "enabled": true,
@@ -4495,7 +4274,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -4531,23 +4310,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "1000",
-                    "maxDifferenceY": "1000",
-                    "maxDifferenceZ": "2000",
-                    "objXPos": "1100.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "5600.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 2087758360904411989
               }
             ],
             "enabled": true,
@@ -4874,7 +4636,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -4910,23 +4672,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "1500",
-                    "maxDifferenceY": "1500",
-                    "maxDifferenceZ": "1500",
-                    "objXPos": "-3050.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "8750.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 4853191223003088805
               }
             ],
             "enabled": true,
@@ -5361,7 +5106,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -5397,23 +5142,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "1500",
-                    "maxDifferenceY": "1500",
-                    "maxDifferenceZ": "1500",
-                    "objXPos": "3600.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "2700.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 5058919345982776943
               }
             ],
             "enabled": true,
@@ -5445,7 +5173,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -5481,23 +5209,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "1500",
-                    "maxDifferenceY": "1500",
-                    "maxDifferenceZ": "1500",
-                    "objXPos": "-6400.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "9150.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 11773421390260542773
               }
             ],
             "enabled": true,
@@ -5676,7 +5387,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -5712,23 +5423,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": "1500",
-                    "objXPos": "-1300",
-                    "objYPos": " 0.0f",
-                    "objZPos": "11300.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 5452108597564764022
               }
             ],
             "enabled": true,
@@ -6644,7 +6338,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -6680,23 +6374,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
-                    "objXPos": "1300.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "10000.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 16101030573452038297
               }
             ],
             "enabled": true,
@@ -6894,7 +6571,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -6930,23 +6607,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 1000.0f",
-                    "maxDifferenceY": " 1000.0f",
-                    "maxDifferenceZ": " 1000.0f",
-                    "objXPos": "3200.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "8000.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 18421417491588335106
               }
             ],
             "enabled": true,
@@ -7046,7 +6706,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -7082,23 +6742,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 584939472932177031
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "1500",
-                    "maxDifferenceY": "1500",
-                    "maxDifferenceZ": "1500",
-                    "objXPos": "-1000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "8900.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 3310743894118381819
               }
             ],
             "enabled": true,
@@ -7229,7 +6872,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -7265,23 +6908,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 6770145484857702809
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2500.0f",
-                    "maxDifferenceY": " 2500.0f",
-                    "maxDifferenceZ": " 2500.0f",
-                    "objXPos": " 1670.0f",
-                    "objYPos": " 0.0f",
-                    "objZPos": " 3800.0f",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 11118527538501381784
               }
             ],
             "enabled": true,
@@ -8780,7 +8406,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -8816,23 +8442,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "-870",
-                    "objYPos": " 0.0f",
-                    "objZPos": "1480",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 12723792096803527815
               }
             ],
             "enabled": true,
@@ -8864,7 +8473,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -8900,23 +8509,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "2375",
-                    "objYPos": " 0.0f",
-                    "objZPos": "3000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 2130805310280836090
               }
             ],
             "enabled": true,
@@ -8948,7 +8540,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -8984,23 +8576,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "3200",
-                    "objYPos": " 0.0f",
-                    "objZPos": "6800",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 16298711386517396012
               }
             ],
             "enabled": true,
@@ -9032,7 +8607,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -9068,23 +8643,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "1000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "10000.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 1333663449077255394
               }
             ],
             "enabled": true,
@@ -9116,7 +8674,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -9152,23 +8710,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "-3950",
-                    "objYPos": " 0.0f",
-                    "objZPos": "10500.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 3468246002780947405
               }
             ],
             "enabled": true,
@@ -9200,7 +8741,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -9236,23 +8777,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "-2100.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "6500.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 11796589259121492196
               }
             ],
             "enabled": true,
@@ -9284,7 +8808,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -9320,23 +8844,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "-3500.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "5000.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 10365862364146109356
               }
             ],
             "enabled": true,
@@ -9368,7 +8875,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -9404,23 +8911,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "-3800.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "1200.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 17872807329006233239
               }
             ],
             "enabled": true,
@@ -9452,7 +8942,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -9488,23 +8978,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "2500",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "-1500.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "-1100.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 10015755209211036915
               }
             ],
             "enabled": true,
@@ -9536,7 +9009,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -9572,23 +9045,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "-5600.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "-1800.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 15197067040200552755
               }
             ],
             "enabled": true,
@@ -9620,7 +9076,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -9656,23 +9112,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": "4000",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "-4600.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "-4150.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 9564181230318820486
               }
             ],
             "enabled": true,
@@ -9704,7 +9143,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -9740,23 +9179,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "-4600.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "-7000.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 17586496045166104537
               }
             ],
             "enabled": true,
@@ -9788,7 +9210,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -9824,23 +9246,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "-2200.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "-6400.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 16584080480806715270
               }
             ],
             "enabled": true,
@@ -9872,7 +9277,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -9908,23 +9313,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": "4000",
-                    "objXPos": "-7500",
-                    "objYPos": " 0.0f",
-                    "objZPos": "-2600.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 14713534152697405802
               }
             ],
             "enabled": true,
@@ -9956,7 +9344,7 @@
             "components": [
               {
                 "data": {
-                  "culling": false,
+                  "culling": true,
                   "layerIdx": 0,
                   "material": {
                     "depth": 0,
@@ -9992,23 +9380,6 @@
                 "id": 1,
                 "name": "Model (Static)",
                 "uuid": 10684523706575352791
-              },
-              {
-                "data": {
-                  "args": {
-                    "maxDifferenceX": " 2000.0f",
-                    "maxDifferenceY": " 2000.0f",
-                    "maxDifferenceZ": " 2000.0f",
-                    "objXPos": "-6135.000",
-                    "objYPos": " 0.0f",
-                    "objZPos": "1850.000",
-                    "playerRef": "1006344143"
-                  },
-                  "script": 14138525084268296927
-                },
-                "id": 0,
-                "name": "Code",
-                "uuid": 6024425882312223582
               }
             ],
             "enabled": true,
