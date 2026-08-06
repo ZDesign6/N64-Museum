@@ -1241,9 +1241,9 @@
                   {
                     "data": {
                       "args": {
-                        "heightOffset": " 5.0f",
+                        "heightOffset": " 6.f",
                         "hoverOn": "1",
-                        "hoverSpeed": " .5f",
+                        "hoverSpeed": " .75f",
                         "maxXScaleDecrease": " 0.0f",
                         "maxXScaleIncrease": " 1.0f",
                         "maxYScaleDecrease": " 0.0f",
