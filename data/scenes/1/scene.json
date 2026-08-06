@@ -645,9 +645,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          -1710.9173583984375,
+          3114.5634765625,
           105.68818664550781,
-          4329.697265625
+          2840.80224609375
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -747,6 +747,85 @@
                 ],
                 "selectable": true,
                 "uuid": 3962051512,
+                "uuidPrefab": 0
+              },
+              {
+                "children": [],
+                "components": [
+                  {
+                    "data": {
+                      "culling": false,
+                      "layerIdx": 1,
+                      "material": {
+                        "depth": 0,
+                        "env": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "fresnel": 0,
+                        "fresnelColor": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "lighting": false,
+                        "prim": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0
+                        ],
+                        "setDepth": false,
+                        "setEnv": false,
+                        "setFresnel": false,
+                        "setLighting": false,
+                        "setPrim": false
+                      },
+                      "meshFilter": "",
+                      "model": 11801090647413749309
+                    },
+                    "id": 1,
+                    "name": "Model (Static)",
+                    "uuid": 17192948543651004981
+                  },
+                  {
+                    "data": {
+                      "objectUUID": 0,
+                      "type": 3,
+                      "usePos": false,
+                      "useRot": false,
+                      "useScale": false
+                    },
+                    "id": 7,
+                    "name": "Constraint",
+                    "uuid": 1367086485710527940
+                  }
+                ],
+                "enabled": true,
+                "name": "GusterTop",
+                "pos": [
+                  -5490.0,
+                  -32.42512893676758,
+                  3680.0
+                ],
+                "propOverrides": {},
+                "proportionalScale": false,
+                "rot": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "scale": [
+                  10.0,
+                  10.0,
+                  10.0
+                ],
+                "selectable": true,
+                "uuid": 3610808277,
                 "uuidPrefab": 0
               }
             ],
@@ -1115,7 +1194,7 @@
                     "setPrim": false
                   },
                   "meshFilter": "",
-                  "model": 4235474134820109758
+                  "model": 3086445070521569448
                 },
                 "id": 1,
                 "name": "Model (Static)",
@@ -1280,73 +1359,6 @@
                 ],
                 "selectable": true,
                 "uuid": 3157335627,
-                "uuidPrefab": 0
-              },
-              {
-                "children": [],
-                "components": [
-                  {
-                    "data": {
-                      "culling": false,
-                      "layerIdx": 0,
-                      "material": {
-                        "depth": 0,
-                        "env": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "fresnel": 0,
-                        "fresnelColor": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "lighting": false,
-                        "prim": [
-                          0.0,
-                          0.0,
-                          0.0,
-                          0.0
-                        ],
-                        "setDepth": false,
-                        "setEnv": false,
-                        "setFresnel": false,
-                        "setLighting": false,
-                        "setPrim": false
-                      },
-                      "meshFilter": "",
-                      "model": 4617580003703276213
-                    },
-                    "id": 1,
-                    "name": "Model (Static)",
-                    "uuid": 8739752162791798434
-                  }
-                ],
-                "enabled": false,
-                "name": "Screen",
-                "pos": [
-                  -5169.416015625,
-                  -80.76023864746094,
-                  -5960.0
-                ],
-                "propOverrides": {},
-                "proportionalScale": false,
-                "rot": [
-                  0.0,
-                  1.0,
-                  0.0,
-                  0.0
-                ],
-                "scale": [
-                  45.073326110839844,
-                  20.0,
-                  20.0
-                ],
-                "selectable": true,
-                "uuid": 2997043450,
                 "uuidPrefab": 0
               }
             ],
@@ -4246,7 +4258,7 @@
                 "pos": [
                   3593.053955078125,
                   350.7306213378906,
-                  3575.0
+                  3570.0
                 ],
                 "propOverrides": {},
                 "proportionalScale": false,
@@ -5332,7 +5344,7 @@
                 "pos": [
                   1250.0,
                   10.0,
-                  10950.0
+                  10947.0
                 ],
                 "propOverrides": {},
                 "proportionalScale": false,
