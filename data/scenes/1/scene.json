@@ -109,7 +109,7 @@
           {
             "data": {
               "aspect": 0.0,
-              "far": 5000.0,
+              "far": 3500.0,
               "fov": 65.0,
               "mode": 0,
               "near": 50.0,
@@ -645,9 +645,9 @@
         "enabled": true,
         "name": "Player",
         "pos": [
-          3114.5634765625,
+          -1733.5421142578125,
           105.68818664550781,
-          2840.80224609375
+          4350.80224609375
         ],
         "propOverrides": {},
         "proportionalScale": false,
@@ -941,7 +941,7 @@
                   {
                     "data": {
                       "args": {
-                        "heightOffset": " 2.0f",
+                        "heightOffset": " 6.0f",
                         "hoverOn": " 1",
                         "hoverSpeed": " 1f",
                         "maxXScaleDecrease": " 0.0f",
@@ -959,7 +959,7 @@
                         "yScaleOn": " 0",
                         "yScaleSpeed": " .005f",
                         "zRotOn": " 0",
-                        "zRotSpeed": " .05f",
+                        "zRotSpeed": " .025f",
                         "zScaleOn": " 0",
                         "zScaleSpeed": " .005f"
                       },
@@ -1039,7 +1039,7 @@
                   {
                     "data": {
                       "args": {
-                        "heightOffset": " 2.0f",
+                        "heightOffset": " 6.0f",
                         "hoverOn": " 1",
                         "hoverSpeed": " 1f",
                         "maxXScaleDecrease": " 0.0f",
@@ -1057,7 +1057,7 @@
                         "yScaleOn": " 0",
                         "yScaleSpeed": " .005f",
                         "zRotOn": " 0",
-                        "zRotSpeed": " .05f",
+                        "zRotSpeed": " .025f",
                         "zScaleOn": " 0",
                         "zScaleSpeed": " .005f"
                       },
@@ -1474,9 +1474,9 @@
                   {
                     "data": {
                       "args": {
-                        "heightOffset": " 6.f",
+                        "heightOffset": " 9.f",
                         "hoverOn": "1",
-                        "hoverSpeed": " .75f",
+                        "hoverSpeed": " 1f",
                         "maxXScaleDecrease": " 0.0f",
                         "maxXScaleIncrease": " 1.0f",
                         "maxYScaleDecrease": " 0.0f",
@@ -2854,9 +2854,9 @@
                   {
                     "data": {
                       "args": {
-                        "heightOffset": " 6.0f",
+                        "heightOffset": " 9.0f",
                         "hoverOn": " 1",
-                        "hoverSpeed": " 1f",
+                        "hoverSpeed": " 2f",
                         "maxXScaleDecrease": " 0.0f",
                         "maxXScaleIncrease": " 1.0f",
                         "maxYScaleDecrease": " 0.0f",
@@ -5841,7 +5841,7 @@
                         "yScaleOn": " 0",
                         "yScaleSpeed": " .005f",
                         "zRotOn": "1",
-                        "zRotSpeed": " .1f",
+                        "zRotSpeed": " .25f",
                         "zScaleOn": " 0",
                         "zScaleSpeed": " .005f"
                       },
