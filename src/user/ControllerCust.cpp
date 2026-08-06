@@ -4,7 +4,6 @@
 #include "scene/components/charBody.h"
 #include "debug/debugMenu.h"
 #include "debug/debugDraw.h"
-
 namespace
 {
   constexpr float JUMP_SPEED  = 8.0f;  // Initial up-axis speed on jump
@@ -41,6 +40,7 @@ namespace P64::Script::CD0A328E7EE01313
     float camPitchTarget;
     bool planetGravity;
     fm_vec3_t currentUp;
+    Audio::Handle sound;
   );
 
   void init(Object& obj, Data *data)
@@ -71,6 +71,11 @@ namespace P64::Script::CD0A328E7EE01313
     //store derefed body
     auto &body = obj.getComponent<P64::Comp::CharBody>()->getBody();
 
+    //AUDIO:
+    //Play the sound and store its Handle
+     //data->sound = AudioManager::play2D("sounds/sfx/sm64_step.mp3");
+    //randomize the pitch slightly
+    //data->sound.setSpeed(1.0f - Math::rand01() * .01f);
 
     const fm_vec3_t up = body.getSettings().up;
     fm_vec3_t forward0 = data->camForward - up * fm_vec3_dot(&data->camForward, &up);

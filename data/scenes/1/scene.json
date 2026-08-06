@@ -1606,7 +1606,7 @@
                     "uuid": 3381957093101345856
                   }
                 ],
-                "enabled": false,
+                "enabled": true,
                 "name": "FakeFogs",
                 "pos": [
                   0.0,
